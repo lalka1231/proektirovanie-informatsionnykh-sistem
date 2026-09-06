@@ -7,7 +7,7 @@ from pptx.enum.shapes import MSO_SHAPE, MSO_CONNECTOR
 from pptx.enum.text import MSO_ANCHOR
 from PIL import Image
 P=Path(__file__).resolve().parents[1]; R=P/'diagrams/rendered'
-prs=Presentation();prs.slide_width=Inches(13.333333);prs.slide_height=Inches(7.5)
+prs=Presentation();prs.core_properties.author="Команда «Байтенки»";prs.core_properties.last_modified_by="Команда «Байтенки»";prs.slide_width=Inches(13.333333);prs.slide_height=Inches(7.5)
 C={'navy':'20364D','teal':'247E83','mint':'E8F3F4','paper':'F7F9FB','gray':'627387','line':'D9E1E8','amber':'C88C30','pale':'FFF2D7','white':'FFFFFF'}
 notes=json.loads((P/'src/notes.json').read_text()) if (P/'src/notes.json').exists() else ['']*15
 metadata=[]
@@ -70,10 +70,10 @@ def process_slide(title,auto=False):
 # 1
 s=slide('UPS ORION',source='Практическая / самостоятельная работа № 1 • РТУ МИРЭА')
 text(s,'Как спроектировать ИС,\nкоторая меняет маршрут доставки',.55,1.73,9,1.55,34,'navy',True)
-badge(s,'РЕАЛЬНЫЙ КЕЙС · ПЕРВОНАЧАЛЬНОЕ ВНЕДРЕНИЕ ДО 2016 ГОДА',.55,3.48,9.6,'mint')
+badge(s,'РЕАЛЬНЫЙ КЕЙС · ВНЕДРЕНИЕ ЗАВЕРШЕНО В 2016 ГОДУ',.55,3.48,9.6,'mint')
 for i,(h,b) in enumerate([('БЫЛО','Решение по опыту'),('ИЗМЕНЕНИЕ','Оптимизация + данные'),('СТАЛО','Порядок остановок')]):
     card(s,.55+i*4.12,4.29,3.93,1.85,h,b,'white')
-text(s,'Ваздаев Даниил Ильич · УИБО-09-23',.55,6.48,11,.34,17,'gray')
+text(s,'Работу выполнила команда «Байтенки»',.55,6.48,11,.34,17,'gray')
 # 2
 s=slide('Один процесс вместо обзора всей компании',source='Факты о назначении и разработчике: интервью Jack Levis, UPS [1]. Границы — авторские.')
 card(s,.55,1.75,3.8,3.25,'UPS','Логистика и доставка\n\nРазработчик ORION —\nсама UPS','white')
