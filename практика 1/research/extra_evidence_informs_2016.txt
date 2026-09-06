@@ -1,0 +1,195 @@
+‘ORION’ delivers success for UPS | ORMS Today
+1 capture
+16 May 2025
+Apr
+MAY
+Jun
+16
+2024
+2025
+2026
+success
+fail
+About this capture
+COLLECTED BY
+Collection:
+Media Cloud
+A longitudinal web archival collection based on URIs from the daily feed of Media Cloud that maps news media coverage of current events.
+TIMESTAMPS
+The Wayback Machine - https://web.archive.org/web/20250516154643/https://pubsonline.informs.org/do/10.1287/orms.2016.03.10/full/
+INFORMS.org
+Certified Analytics Professional
+PubsOnLine
+INFORMS Connect
+Career Center
+2024 INFORMS Security Conference
+Log in
+INFORMS Member Login
+Nonmember Login
+Institutional Access
+Register
+Login to your account
+Login or Register
+Member Login
+Use this option if you have an account on informs.org or if you want to become an INFORMS
+            member
+Member Login
+Nonmember Login
+Combine personal and institutional access with an
+Informs PubsOnline
+account using CONNECT
+Register
+Login
+Search
+Search
+Skip main navigation
+Home
+NEWS
+FEATURES
+PODCASTS
+DEPARTMENTS
+ISSUES
+ADVERTISE
+CONTRIBUTE
+June 6, 2016
+            
+    
+        in
+Edelman Award
+‘ORION’ delivers success for UPS
+Revolutionary routing system boosts driver efficiency, cost savings, customer service and the environment.
+Peter Horner
+SHARE:
+Share on
+Share on
+PRINT ARTICLE:
+https://doi.org/10.1287/orms.2016.03.10
+UPS optimally routes 55,000 drivers, each of whom makes on average more than a hundred deliveries a day. Source: UPS
+UPS was faced with what amounted to the Mother of all Traveling Salesman Problems in its Small Package Operations: how to optimally deploy 55,000 drivers based across the United States, each of whom makes on average more than a hundred deliveries a day. To make the problem even more interesting, UPS added a largely safety-driven constraint: minimize the number of left-hand turns on each driver’s route.
+The goal: boost cost savings, driver efficiency, production and safety, environmental friendliness and customer service all at the same time by optimizing driver routing and reducing the total number of miles driven and fuel consumed throughout its U.S. pickup and delivery system.
+That’s a tall order, but UPS delivered thanks to ORION (On-Road Integrated Optimization and Navigation), a 10-year-long project developed by the UPS Operations Research group that revolutionized the company’s pickup and delivery (P&D) operations, ultimately met and exceeded its goals, and earned UPS the 2016 Franz Edelman Award from INFORMS.
+The prestigious Edelman Award, considered the “Super Bowl” of O.R. practice, was presented at an Oscar-like gala held in conjunction with the INFORMS Conference on Business Analytics & Operations Research in April in Orlando, Fla.
+“ORION is a testament to the scale of innovation that can be accomplished when operations research, information technology and business processes are seamlessly integrated,” says Juan Perez, UPS chief information officer. “Success didn’t come overnight. It took hard work by 700-plus UPS employees who dedicated themselves to the development and deployment of ORION for many years. And we are just at the beginning of harnessing the power of ORION to fuel new, innovative products and services.”
+The Project
+As the prize-winning UPS team outlined in its presentation, ORION sits atop a package flow technology (PFT) foundation that UPS developed to streamline and modernize its P&D operations. Launched in 2003, PFT combines data from multiple sources (public as well as proprietary) and advanced analytical tools to provide UPS with “unparalleled flexibility and efficiency.” A decade later, Information Week named PFT one of the “20 Great Ideas to Steal.”
+PFT was explicitly built to support the use of advanced optimization in planning and execution of its P&D operations. However, the project’s initial route optimization algorithms were difficult to implement in practice. As noted in the presentation, UPS “went back to the drawing board and had to rethink and relearn everything it had known about creating effective and efficient routes. It had to blend its 108-year-old practices with 21st century technology.”
+The result was a field-tested ORION that uses advanced fleet telematics and complex algorithms to crunch thousands of pages of code and more than 250 million address data points to provide UPS drivers with optimized delivery routes. As of December 2015, ORION was being used by 35,000 UPS drivers in the United States, and every morning they receive an optimized sequence in which the (pre)assigned packages are delivered. Full deployment to 55,000 drivers is expected by the end of this year.
+According to UPS, ORION saved the company $320 million by the end of 2015, but the biggest savings are going forward. Once fully deployed, ORION is expected to account for an estimated $300 million to $400 million in annual savings and cost avoidance thanks to 100 million miles less traveled, 10 million gallons of fuel not consumed and a reduction of 100,000 metric tons in CO2 emissions per year, not to mention a significant increase in deliveries per driver per day. Add it all up and it’s a nice annual return on a $250 million total investment.
+“ORION has been a game changer for UPS,” says Mark Wallace, senior vice president of global engineering and sustainability at UPS. “ORION has made us better at serving our customers – how they want, when they want, where they want.”
+The Prize-Winning Team
+The strategic importance of ORION to UPS and the fact that the company’s appreciation of operations research and its O.R group goes all the way to the very top of the organization was underscored by CEO David Abney flying into Orlando for the Edelman competition and accepting the award on behalf of UPS at the dinner gala.
+“This is another example of a group taking an excellent idea and then transforming that idea into a game-changing technology,” Abney told the packed ballroom. “Operations research has been a key to our success for the 42 years that I’ve been at UPS, and I’m sure it will always continue to be that way.”
+Abney indicated that UPS will donate its prize money from the Edelman competition to help support students who plan to pursue a career in operations research.
+Headquartered in Sandy Springs, Ga., UPS is a global leader in logistics, offering a broad range of solutions including the transportation of packages and freight, the facilitation of international trade and the deployment of advanced technology to more efficiently manage the world of business. UPS serves more than 220 countries and territories worldwide.
+No doubt every seasoned O.R. analyst has worked on a technically sound and innovative O.R. and analytics-driven project that failed to live up to expectations due to a lack of buy-in from key constituents. The ORION project obviously had the support of UPS’s top management, but what about its 55,000 U.S.-based drivers, many of whom had driven a particular route a particular way for years? How would they respond to daily, computer-generated “optimized” routes that veered away from their routine?
+The Edelman-winning presentation featured a dramatic video of UPS employees, from C-level executives to drivers, extolling the virtues of operations research and the ORION project. As one driver puts it, “[ORION] tells you exactly how to drive to your first stop and how to get back to the building from your last stop, so I can stay focused on safety aspects and my customers, addressing them properly, seeing how they’re doing and just being professional,” he said, adding that he used to do 110 stops a day and now does 115 to 118 stops in the same amount of time.
+Jack Levis
+Chuck Holland, vice president of industrial engineering, and Jack Levis, senior director of process management and a longtime, active member of INFORMS, were prominent members of UPS’s Edelman presentation team. Both emphasized the team-oriented approach to the project that CEO Abney referenced, including the critical role played by drivers.
+“By the end of the year we’ll have 55,000 drivers using ORION, 700 people in the United States deploying it, thousands of operations managers taking advantage of it, let alone the great operations research team that developed the algorithms and the technology behind it,” Holland said. “At UPS we really consider ourselves a team, and I think this is just a perfect example of teamwork throughout the company.
+“The first few attempts at the algorithm did not work well in the field,” Holland continued. “We took a step back, and we worked very closely with our drivers. In the presentation today, Jack [Levis] made a comment about ORION thinking less like a computer and more like a driver. We were able to do that; we were able to gain great acceptance from our drivers. If you ask them, the vast majority will say it takes a good amount of pressure off of them so they can devote more time to things that are more important, such as safety and servicing our customers.”
+Added Levis: “UPS wants to make better decisions and we have. Thousands and thousands of people now have O.R. tools in their hands to make better decisions. Think about it – 55,000 drivers delivering 16 million packages to 8 million customers every day using O.R. What better testament can there be for operations research?”
+Longtime INFORMS members Randall Robinson and Ananth Iyer served as volunteer coaches for the victorious UPS team.
+The Judges
+The Edelman Award is a nearly yearlong competition that begins with a call for nominations, followed by a vetting and verification process. Once the nominations are culled to six finalists, the competition culminates each spring with presentations before a panel of judges at the INFORMS Conference on Business Analytics and Operations Research. After listening to all of the presentations and questioning the presenters, the judges debated behind closed doors before selecting a winner.
+So what put UPS over the top in a highly competitive and diverse field of Edelman finalists (see sidebar)?
+UPS’ Operations Research group, led by Jack Levis (front, center) developed ORION over a 10-year period. Source: UPS
+“The integration of the data and optimization, the fact that you needed the two of them to work well together,” said Mike Trick, professor at Carnegie Mellon and chairperson of this year’s Edelman Award Committee, who led the panel of judges. “They had a really complicated implementation and they did it extraordinarily well. This was a 10-year project building off a previous project, so it was a long time coming. With the data being in the state that it was, it’s amazing that they were able to step back and say, ‘No, this isn’t just about optimization. If we don’t get the data right, if we don’t get the underlying rules right, this will never happen.’ The fact that they were able to do that was pretty impressive.”
+Five other Edelman finalists
+Along with UPS, this year’s Franz Edelman Award competition finalists included:
+360i for “360is Digital Nervous System”
+BNY Mellon for “Transition State and End State Optimization Used in the BNY Mellon U.S. Tri-Party Repo Infrastructure Reform Program”
+Chilean Professional Soccer Association (ANFP) for “Operations Research Transforms Scheduling of Chilean Soccer Leagues and South American World Cup Qualifiers”
+New York City Police Department (NYPD) for “Domain Awareness System (DAS)”
+U.S. Army Communications-Electronics Command (CECOM) for “Bayesian Networks for U.S. Army Electronics Equipment Diagnostic Applications: CECOM Equipment Diagnostic Analysis Tool, Virtual Logistics Assistance Representative”
+Trick was also impressed by UPS’s ability to garner driver acceptance on a massive scale. “Absolutely, driver buy-in was crucial,” Trick said. “I can just image a driver saying, ‘I’ve been driving this route every day for 20 years, and suddenly you’re telling me a better way of doing it?’ The fact that they were able to get that driver buy-in part right is terms of the route ordering is also quite impressive.”
+Added David Hunt of Oliver Wyman: “It was a very tough decision. There was such a diversity of projects that it was hard to compare them. The one thing that I personally really liked about the UPS project is that to me it represented a big scale operations research project in all of its ugliness. I mean they had data issues. They had changed management issues. They had to have extensive training and buy-in by the drivers. It just went through the entire process, and I appreciated that and the effort that went into it.”
+While each judge has his or her own preferences in terms of what aspect of a project is most important, they all are looking at some combination of technical innovation, obstacles overcome and benefits realized to determine the winner.
+“The overall challenge that UPS faced to get this project implemented, from taking what was once a simple O.R. algorithm and making it work in practice and deploying it out to an organization with 55,000 drivers, was impressive,” said Irv Lustig, optimization principal at Princeton Consultants. “Getting the math right was a huge challenge, along with working with drivers and people at UPS facilities, handling the changing management issues, and changing the metrics of how they measured success. All of these things put together show that with these massive projects, it’s not just about the algorithms; it’s about all the things you have to do around it to be successful.”
+How important is winning the Edelman Award? Minutes after INFORMS President Ed Kaplan announced the winner, and the audience erupted in applause and the music started thumping, UPS V.P. Holland was asked that very question. His answer: “I postponed my retirement by one year because of this. We weren’t sure if we were going to compete in 2015 or 2016. Once we decided we would wait until 2016, I postponed my retirement in hopes of being part of a celebration just like this.”
+General Motors awarded INFORMS Prize
+General Motors Corp., which is using big data and advanced analytics to predict failure of certain automotive components and systems before customers are affected, was named the winner of the 2016 INFORMS Prize for operations research and the management sciences. This year’s INFORMS Prize was presented at the 2016 INFORMS Conference on Analytics & Operations Research in Orlando, Fla.
+The INFORMS Prize honors effective integration of operations research in organizational decision-making. The award is given to an organization such as GM that has repeatedly applied the principles of O.R. in pioneering, varied, novel and lasting ways. Unlike the Edelman Award, which honors an impactful project, the INFORMS Prize salutes successful and sustained integration of O.R. and analytics throughout an organization.
+Industry-first proactive alert messages sent to customers through GM’s OnStar system covering potential issues with a vehicle’s battery, fuel pump or starter can transform an emergency repair into planned maintenance. A recent example of applying operations research and management science to the most complex issues the company faces led to the INFORMS Prize.
+“Over the last seven decades, OR/MS techniques have been used to improve our understanding of everything from prognostics to traffic science and supply chain logistics to manufacturing productivity, product development and vehicles telematics and prognostics,” says Gary Smyth, executive director of GM Global R&D Laboratories. “These approaches to problem-solving permeate almost everything we do.”
+GM has hundreds of OR/MS practitioners worldwide who play a vital role in everything from designing, building, selling and servicing vehicles to purchasing, logistics and quality. The team is constantly developing new business models and vetting emerging opportunities.
+Another example of management science positively impacting the business is helping to understand what products and features customers most want to create, as well as price features and option packages that would sell best. That work extends to determine the ideal number of vehicles and what vehicle variants Chevrolet, Buick, GMC and Cadillac dealers in the United States should stock. In addition, advanced analytics help dealers achieve GM’s goal of creating customers for life. The company recently received the 2015 overall manufacturer loyalty award from IHS.
+The impact OR/MS is now having to the business can be traced to 2007, when GM created a center of expertise for operations research to promote best practices and transfer new technologies. GM has since expanded to include partner teams in product development, supply chain, finance, information technology and other teams.
+Peter Horner
+(
+[email protected]
+)
+Peter Horner is the editor of
+Analytics
+magazine.
+SHARE:
+Share on
+Share on
+Keywords:
+Edelman Award
+UPS
+Sign Up for INFORMS Publications Updates and News
+Sign Up
+SUBSCRIBE
+CONTACT
+ADVERTISE
+CONTRIBUTE
+Institute for Operations Research and the Management Sciences
+5521 Research Park Drive, Suite 200
+Catonsville, MD 21228 USA
+phone 1
+443-757-3500
+phone 2
+800-4INFORMS (800-446-3676)
+fax
+443-757-3515
+email
+[email protected]
+Get the Latest Updates
+Discover INFORMS
+Explore OR & Analytics
+Get Involved
+Impact
+Join Us
+Recognizing Excellence
+Professional Development
+Resource Center
+Meetings & Conferences
+Publications
+About INFORMS
+Communities
+PubsOnLine
+2024 INFORMS/ALIO/ASOCIO International Conference
+Certified Analytics Professional
+Career Center
+INFORMS Connect
+Copyright 2025 INFORMS. All Rights Reserved
+INFORMS Code of Conduct
+Terms of Use
+Privacy
+Contact INFORMS
+Sitemap
+Follow INFORMS on:
+Share on
+X
+Facebook
+Linked In
+Share on
+X
+Facebook
+Linked In
+INFORMS site uses cookies to store information on your computer. Some are essential to make our site work; Others help us improve the user experience. By using this site, you consent to the placement of these cookies. Please read our
+Privacy Statement
+to learn more.
+Agree
+Login to your account
+Login or Register
+Member Login
+Use this option if you have an account on informs.org or if you want to become an INFORMS
+            member
+Member Login
+Nonmember Login
+Combine personal and institutional access with an
+Informs PubsOnline
+account using CONNECT
+Register
+Login

@@ -1,0 +1,34 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam defaultFontSize 21
+skinparam shadowing false
+skinparam ArrowColor #324A60
+skinparam roundcorner 14
+skinparam activityBackgroundColor #E8F3F4
+skinparam activityBorderColor #247E83
+skinparam usecaseBackgroundColor #E8F3F4
+skinparam usecaseBorderColor #247E83
+skinparam rectangleBorderColor #324A60
+skinparam componentBackgroundColor #E8F3F4
+skinparam componentBorderColor #247E83
+skinparam noteBackgroundColor #FFF2D7
+skinparam noteBorderColor #C88C30
+left to right direction
+rectangle "1. Планирование\nи требования" as a
+rectangle "2. Проектирование\nданных и ограничений" as b
+rectangle "3. Реализация\nи полевые проверки" as c
+rectangle "4. Внедрение\nпо площадкам" as d
+rectangle "5. Эксплуатация\nи контроль эффекта" as e
+a --> b
+b --> c
+c --> b : обратная связь
+c --> d : входные критерии
+d --> e : выходные критерии
+e --> b : новые требования
+legend bottom
+Наиболее подходящая модель ЖЦ: итерационная разработка + инкрементальное внедрение.
+Реконструкция. Полевые тесты, критерии готовности и контроль метрик подтверждены [1].
+endlegend
+@enduml

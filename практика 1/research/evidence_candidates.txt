@@ -1,0 +1,14 @@
+Выдержки из текстов, полученных web_extract при сравнении кандидатов. Это сохранённые фрагменты извлечения, не полные копии сайтов.
+
+[2] https://www.accenture.com/us-en/case-studies/cloud/carlsberg-cloud-innovation
+In just eight weeks, a team comprising Carlsberg and Accenture Technology professionals developed a one-of-a-kind cloud strategy and selected Microsoft Azure as the cloud platform of choice.
+Tapping the robust ecosystem of Accenture alliance partners, Avanade and Microsoft, Carlsberg built its Azure architecture in just 10 weeks, embedding automation and innovation wherever possible to create better service quality and user experiences. In just six months, Carlsberg migrated 1,300 servers and 650 critical business applications to the cloud. The global migration occurred in three waves—the last of which involved moving 40 terabytes of data—and was completed with no disruption to the business.
+
+[3] https://www.dhl.com/content/dam/dhl/global/csi/documents/pdf/glo-csi-supply-chain-accelerated-digitalization-case-studies.pdf
+Smart tasking system creates greater picking efficiency and order visibility
+Orders are printed, manually sorted by tasker into assignments, then given to operator who fulfills them via a pick cart
+Reduction of indirect planning time from 16 hours to 4 hours
+30% increased pick productivity due to reduced travel and increased pick density
+Geography US
+Sector Life Science
+Solution Algorithmic Optimization

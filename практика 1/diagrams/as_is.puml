@@ -1,0 +1,45 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam defaultFontSize 21
+skinparam shadowing false
+skinparam ArrowColor #324A60
+skinparam roundcorner 14
+skinparam activityBackgroundColor #E8F3F4
+skinparam activityBorderColor #247E83
+skinparam usecaseBackgroundColor #E8F3F4
+skinparam usecaseBorderColor #247E83
+skinparam rectangleBorderColor #324A60
+skinparam componentBackgroundColor #E8F3F4
+skinparam componentBorderColor #247E83
+skinparam noteBackgroundColor #FFF2D7
+skinparam noteBorderColor #C88C30
+title AS-IS: подготовка и выполнение дневного маршрута
+|PFT — существующая ИС|
+start
+:Задания, адреса,\nограничения обслуживания;
+|Планировщик|
+:Проверить задания\nи условия доставки;
+|Водитель|
+:Уточнить порядок остановок\nна основе опыта;
+note right
+Ручной выбор последовательности:
+не все варианты сопоставлены
+end note
+:Выполнить доставки\nи заборы отправлений;
+if (Возникло отклонение?) then (да)
+:Повторно оценить порядок\nи согласовать действия;
+note right
+Возврат к ручному решению;
+риск лишнего пробега и задержки
+end note
+else (нет)
+endif
+:Передать сведения\nо выполнении;
+stop
+legend bottom
+Учебная реконструкция процесса на основании [1].
+До ORION уже применялась PFT; бумажный документооборот не предполагается.
+endlegend
+@enduml

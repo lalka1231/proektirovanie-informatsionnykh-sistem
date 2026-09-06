@@ -1,0 +1,48 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam defaultFontSize 21
+skinparam shadowing false
+skinparam ArrowColor #324A60
+skinparam roundcorner 14
+skinparam activityBackgroundColor #E8F3F4
+skinparam activityBorderColor #247E83
+skinparam usecaseBackgroundColor #E8F3F4
+skinparam usecaseBorderColor #247E83
+skinparam rectangleBorderColor #324A60
+skinparam componentBackgroundColor #E8F3F4
+skinparam componentBorderColor #247E83
+skinparam noteBackgroundColor #FFF2D7
+skinparam noteBorderColor #C88C30
+top to bottom direction
+rectangle "Пользовательские каналы — реконструкция" {
+[Рабочее место\nпланировщика] as desktop
+[Клиент\nводителя] as mobile
+[Просмотр\nрезультатов] as report
+}
+rectangle "Прикладной слой ORION" {
+[Прием данных и\nконтроль качества «Р»] as input
+[Ядро оптимизации UPS «Ф»\nПорядок остановок с ограничениями] as engine
+[Выдача маршрута\nи анализ выполнения «Р»] as output
+input -right-> engine
+engine -right-> output
+}
+rectangle "Логический слой данных — реконструкция" {
+database "Задания и ограничения\nВерсии маршрутов и результаты\nФизическая СУБД не установлена" as db
+}
+cloud "PFT «Ф»\nСуществующая платформа UPS" as pft
+cloud "Картографические данные «Ф»\nСпособ интеграции — «Р»" as maps
+desktop --> input : запрос
+output --> mobile : маршрут
+output --> report : показатели
+pft --> input : задания
+maps --> input : дорожная сеть
+input --> db
+engine --> db
+output --> db
+legend bottom
+Реконструированная архитектура на основании доступного описания решения [1].
+«Ф» — подтверждено; «Р» — реконструкция. Развертывание, протоколы и СУБД не опубликованы.
+endlegend
+@enduml

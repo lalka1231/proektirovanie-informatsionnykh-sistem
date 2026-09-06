@@ -1,0 +1,100 @@
+{
+  "slides": 15,
+  "pdf_pages": 15,
+  "speaker_words": 1795,
+  "shape_boundary_errors": [],
+  "slide_statistics": [
+    {
+      "slide": 1,
+      "words": 48,
+      "pictures": 0,
+      "notes_words": 115
+    },
+    {
+      "slide": 2,
+      "words": 58,
+      "pictures": 0,
+      "notes_words": 116
+    },
+    {
+      "slide": 3,
+      "words": 56,
+      "pictures": 0,
+      "notes_words": 118
+    },
+    {
+      "slide": 4,
+      "words": 75,
+      "pictures": 0,
+      "notes_words": 119
+    },
+    {
+      "slide": 5,
+      "words": 62,
+      "pictures": 0,
+      "notes_words": 117
+    },
+    {
+      "slide": 6,
+      "words": 54,
+      "pictures": 0,
+      "notes_words": 120
+    },
+    {
+      "slide": 7,
+      "words": 79,
+      "pictures": 0,
+      "notes_words": 121
+    },
+    {
+      "slide": 8,
+      "words": 47,
+      "pictures": 0,
+      "notes_words": 120
+    },
+    {
+      "slide": 9,
+      "words": 67,
+      "pictures": 0,
+      "notes_words": 114
+    },
+    {
+      "slide": 10,
+      "words": 57,
+      "pictures": 0,
+      "notes_words": 121
+    },
+    {
+      "slide": 11,
+      "words": 35,
+      "pictures": 1,
+      "notes_words": 126
+    },
+    {
+      "slide": 12,
+      "words": 39,
+      "pictures": 1,
+      "notes_words": 126
+    },
+    {
+      "slide": 13,
+      "words": 65,
+      "pictures": 0,
+      "notes_words": 120
+    },
+    {
+      "slide": 14,
+      "words": 75,
+      "pictures": 0,
+      "notes_words": 120
+    },
+    {
+      "slide": 15,
+      "words": 73,
+      "pictures": 0,
+      "notes_words": 122
+    }
+  ],
+  "verified_diagram_pngs": 9,
+  "visual_review": "See preview contact sheets; human/model visual review recorded separately."
+}

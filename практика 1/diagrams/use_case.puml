@@ -1,0 +1,40 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam defaultFontSize 21
+skinparam shadowing false
+skinparam ArrowColor #324A60
+skinparam roundcorner 14
+skinparam activityBackgroundColor #E8F3F4
+skinparam activityBorderColor #247E83
+skinparam usecaseBackgroundColor #E8F3F4
+skinparam usecaseBorderColor #247E83
+skinparam rectangleBorderColor #324A60
+skinparam componentBackgroundColor #E8F3F4
+skinparam componentBorderColor #247E83
+skinparam noteBackgroundColor #FFF2D7
+skinparam noteBorderColor #C88C30
+left to right direction
+actor "Планировщик" as planner
+actor "Водитель" as driver
+actor "Руководитель\nдоставки" as manager
+rectangle "ORION — учебная граница системы" {
+usecase "Сформировать\nмаршрут" as route
+usecase "Проверить\nисходные данные" as validate
+usecase "Получить\nмаршрут" as receive
+usecase "Оценить\nвыполнение" as assess
+route .> validate : <<include>>
+}
+actor "PFT\n(внешняя ИС)" as pft
+actor "Сервис карт\n(внешняя роль)" as maps
+planner -- route
+driver -- receive
+manager -- assess
+pft -- route
+maps -- validate
+legend bottom
+UML Use Case. Реконструкция требований, не официальная диаграмма UPS [1].
+Сервис карт — роль картографического контура, не утверждение об отдельном поставщике.
+endlegend
+@enduml

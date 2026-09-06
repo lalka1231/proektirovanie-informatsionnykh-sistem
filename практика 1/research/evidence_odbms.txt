@@ -1,0 +1,348 @@
+Big Data at UPS. Interview with Jack Levis. | ODBMS Industry Watch
+Skip to content
+ODBMS Industry Watch
+Trends and Information on AI, Big Data, New Data Management Technologies, Data Science and Innovation.
+Home
+Tags
+2016 Franz Edelman prize, Jack Levis, On Road Integrated Optimization and Navigation system (ORION), Package Flow Technologies (PFT), UPS
+Big Data at UPS. Interview with Jack Levis.
+by Roberto V. Zicari on August 1, 2017
+“Data is always a bottleneck.”–Jack Levis.
+I have interviewed Jack Levis, Senior Director, Industrial Engineering at UPS. Jack shared with us some of the main lessons learned from the development of the “On Road Integrated Optimization and Navigation system” (ORION).
+RVZ
+Q1. Can you give us a background on UPS and some of the challenges that UPS faces?
+Jack Levis: The e-Commerce revolution brings with it some interesting challenges. First, from a cost-to-serve standpoint, residential deliveries are less dense in terms of distance between stops and pieces per stop. Second, residential customers want personalization in their delivery experience, which adds cost and other challenges. UPS has met these challenges by utilizing operations technology and advanced analytics.
+Q2. UPS won the 2016 Franz Edelman prize for its On Road Integrated Optimization and Navigation system (ORION). You lead the four-year long development of ORION. ORION completed deployment in 2016. How did you manage to reduce 100 million miles driven annually and save UPS $300 to $400 million each year?
+Jack Levis: UPS has a long history of innovation and constant improvement. The ORION story actually began in the late 1990s when UPS started building our Package Flow Technologies (PFT) data infrastructure. PFT created predictive models, a “virtual network”, and a suite of planning and execution tools. This was the foundation for ORION. PFT deployed in 2003 and reduced 85 million miles driven per year.
+ORION was built on this robust foundation. Using the discipline of operations research, ORION created a proprietary route optimization brain. Research into ORION began in 2003, and the first model was field tested in 2008 in Gettysburg, Pennsylvania. The result was that ORION could find ways to serve all customers in a route while at the same time reducing cost.
+It does so by systematically analyzing more than 200,000 different ways a route can be run and then presenting the optimal route to a driver. It does so in seconds.
+The ORION savings of 100 million miles and $300 million to $400 million annually is in addition to the savings from PFT.
+Q3. What data infrastructure and data analytics tools did you use to implement ORION?
+Jack Levis: As mentioned above, ORION sits on top of our proprietary PFT technology. The analytics tools are also built in house by UPS’s operations research team. The marriage of operations research, IT and business processes is part of the ORION success story.
+Q4. What were the main challenges and pitfalls you encountered in the project?
+Jack Levis: The first challenge was to build the ORION optimization engine (brain) that could not only meet service while reducing cost but do so while thinking like a driver. This meant that ORION needed to balance consistency and optimality. It made no sense to throw things up in the air just to save a penny. To do so, UPS had to reevaluate business rules, methods, procedures, etc. In essence, UPS redesigned the delivery process.
+The second challenge was ensuring the data fed to ORION was “pristine”, and maps were a major challenge in this regard.
+Off-the-shelf maps were not accurate enough. UPS patented a process for utilizing our “big data” infrastructure to help make maps accurate enough for ORION.
+For instance, if a speed limit changes or a bridge is out, this edit must be made and updated information sent to ORION. From the time the map is edited, an optimized route can be in a driver’s hands in 30 seconds.
+The third and largest challenge was change management. By definition, optimization tools like ORION will require people to change behavior. UPS tested training procedures, new metrics, analysis tools, etc. to ensure the change would take place.
+Ultimately, the deployment team grew to 700 people. This team impacted tens of thousands of front-line personnel. The deployment team and the front line are the true heroes of the story.
+Q5. What are the three most important lessons learned during this project?
+Jack Levis: Never assume you know the answers. The first four years were spent truly understanding the delivery problem. There were many guidelines but few rules. ORION had to turn these guidelines into acceptable algorithms. The team did so by working with drivers and the front line until ORION started thinking like a driver.
+Data is always a bottleneck. Initially, the team thought maps that could be purchased would be accurate enough. When the optimizations gave bad answers, the team looked at the algorithm. As it turned out, the problem was the map data accuracy and not the algorithm. The algorithm could not be truly tested until the data inputs were “pristine.”
+Don’t forget deployment and change management. Do not think that “If you build it, they will come.” ORION required extensive change management and front-line support. It is important to have support from the top and show that the results are achievable. Without understanding the importance of change management, new programs run the risk of becoming a “flavor of the month.”
+Q6. Can you recommend three best practices so that other projects can have a smoother path?
+Jack Levis: Focus on decisions. Put effort into areas where a better decision will make an impact.
+Focus on deployment and data from the beginning. The ORION deployment strategy is now the standard for all operations projects at UPS.
+Ensure the right data infrastructure is in place with proper data.
+Utilize appropriate associations and networking for help like the Institute of Operations Research and the Management Sciences (INFORM).
+Q7. What were the key elements that made this project a success?
+Jack Levis: Support from senior management to allow the team to continue the research even when failures occurred.
+Proving that benefits could be achieved. The teams ran 11 different tests in multiple operations to test things like benefit achievement, training, metrics, best practices, etc.
+No site could be deployed unless an entrance criteria was met. No site could say deployment was completed unless exit criteria was met.
+There was constant evaluation of metrics and issues.
+ORION was built inside a delivery process. Operations do not know they are using such advanced mathematics. They are just doing their job.
+Q8. In general, how do you evaluate if the insight you obtain from data analytics is “correct” or “good” or “relevant” to the problem domain?
+Jack Levis: The key is to start with decisions. See below (Q9).
+Q9. What are the typical mistakes done when analyzing data for a large scale data project? How can they be avoided in practice?
+Jack Levis: We do NOT focus on technology. We focus on decisions. Big data is a how, not a what. We care less about Big Data than we care about big insight and big impact.
+By focusing on decision that need to be made, priorities become clearer. Ensuring decision-makers have the right information to make decisions and then measuring the impact of better decisions helps with the process. It helps to ensure the proper data is in place to make an impact.
+If an impact can be made from a simple tool, that is a good thing.
+Q10. What are the main barriers to applying machine learning at scale?
+Jack Levis: The largest barrier is not focusing on decisions.
+Q11. What is your next project?
+Jack Levis: UPS will build out ORION.
+ORION will begin making suggestions to drivers throughout the day. ORION will also provide navigation to drivers.
+We are also working on ORION making “dispatch” decisions. ORION will begin deciding which driver should serve customers. In essence, at some point it will automate the pickup/delivery process.
+Simultaneously, UPS will provide ORION-like functionality in other areas of the business.
+There will be a PFT/ORION for Transportation; city-to-city movements.
+There will be a PFT/ORION for inside the building operations; sorting, loading, moving of vehicles, etc.
+Qx Anything else you wish to add?
+Jack Levis: The advances mentioned above along with automated facilities will begin to automate and optimize the network.
+Today, ORION optimizes a single driver. Tomorrow, ORION will begin to optimize an entire delivery area.
+UPS has a bold vision to optimize an entire network from end to end.
+————————
+Jack Levis, Senior Director, Industrial Engineering, UPS
+“Through the marriage of technology, information, and analytics UPS reduces cost and improves services. These advanced technologies streamline our business processes and ultimately benefit our customers.”
+Jack Levis, Senior Director of Industrial Engineering, drives the development of operational technology solutions. These solutions require advanced analytics to reengineer current processes to streamline the business and maximize productivity.
+Jack has been the business owner and process designer for UPS’s Package Flow Technology suite of systems, which includes its award-winning delivery optimization, ORION (On Road Integrated Optimization and Navigation). These tools have been a breakthrough for UPS, resulting in a reduction of 185 million miles driven each year.
+ORION has completed deployment and is providing significant operational benefits to UPS and its customers. UPS estimates that ORION is reducing costs by $300 million to $400 million per year.
+Jack earned his Bachelor of Arts degree in psychology, from California State University Northridge. He also holds a Master’s Certificate in Project Management from George Washington University.
+Jack is a fellow of the Institute for Operations Research and Management Sciences (INFORMS), receiving their prestigious Kimball Medal and the President’s Award.
+Jack holds advisory council positions for multiple universities and associations, including the U.S. Census Bureau Scientific Advisory Committee.
+————————-
+Resources
+–UPS Wins 2016 INFORMS Franz Edelman Award For Changing The Future Of Package Delivery
+–UPS On-Road Integrated Optimization and Navigation (ORION)
+–ORION Backgrounder
+–UPS ORION: The Driver Helper (Infographic)
+Related Posts
+– How Algorithms can untangle Human Questions. Interview with Brian Christian
+– On Digital labor: Technology, Challenges and Opportunities. Interview with Michael Henry
+– Big Data Management at American Express. Interview with Sastry Durvasula and Kevin Murray.
+Follow us on Twitter: @odbmsorg
+##
+From → Uncategorized
+No comments yet
+Leave a Reply Cancel reply
+Comment
+Note: HTML is allowed. Your email address will not be published.
+Subscribe to this comment feed via RSSName (required)
+Email (required, will not be published)
+Website
+Save my name, email, and website in this browser for the next time I comment.
+Please note: JavaScript is required to post comments.
+About the author
+Roberto V. Zicari
+Prof. Roberto V. Zicari is editor of ODBMS.ORG (www.odbms.org) and ODBMS Industry Watch.
+ODBMS.ORG is designed to meet the fast-growing need for resources focusing on Gen AI, AI, AI Data Platforms, Data Science, Scalable Cloud platforms,  NewSQL databases, NoSQL datastores, In-Memory Databases.
+The portal was created to serve software professionals in the open source community or at commercial companies as well as faculty and students at educational and research institutions.
+Roberto V. Zicari is Vice Chair of the  Association for Responsible and Trustworthy AI: Z-Inspection® and affiliated professor at the Yrkeshögskolan Arcada, Helsinki, Finland.
+Previously he was adjunct professor at the Seoul National University, South Korea.
+Roberto V. Zicari is leading  a team of international experts who defined an assessment process for Trustworthy AI, called Z-Inspection®.
+Previously he was professor of Database and Information Systems (DBIS) at the Goethe University Frankfurt, Germany, where he founded the Frankfurt Big Data Lab .
+He is an internationally recognized expert in the field of Databases and Big Data. His interests also expand to Ethics and AI, Innovation and Entrepreneurship. He was for several years a visiting professor with the Center for Entrepreneurship and Technology within the Department of Industrial Engineering and Operations Research at UC Berkeley (USA).
+Tags
+AI
+Amazon
+Analytics
+Artificial Intelligence
+Big Data
+Big Data Analytics
+Cassandra
+Cloud
+cloud stores
+Data
+databases
+document stores
+Facebook
+Google
+Hadoop
+IBM
+ICOODB
+Internet of Things
+InterSystems
+Interview
+IoT
+Java
+machine learning
+MapReduce
+Microsoft
+MongoDB
+MySQL
+New and old Data stores
+NewSQL
+NoSQL
+nosql databases
+object databases
+object persistence
+ODBMS
+ODBMS.ORG
+OMG
+On Innovation
+open source
+Oracle
+RDBMS
+relational databases
+Spark
+SQL
+standards
+VoltDB
+Archives
+August 2026
+July 2026
+June 2026
+April 2026
+March 2026
+February 2026
+November 2025
+October 2025
+September 2025
+August 2025
+July 2025
+May 2025
+April 2025
+March 2025
+February 2025
+November 2024
+October 2024
+March 2024
+January 2024
+December 2023
+October 2023
+June 2023
+February 2023
+January 2023
+March 2022
+February 2022
+December 2021
+November 2021
+September 2021
+August 2021
+May 2021
+April 2021
+March 2021
+November 2020
+July 2020
+June 2020
+April 2020
+March 2020
+February 2020
+January 2020
+November 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+June 2017
+May 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+October 2014
+September 2014
+August 2014
+July 2014
+June 2014
+May 2014
+April 2014
+March 2014
+February 2014
+January 2014
+December 2013
+November 2013
+October 2013
+September 2013
+August 2013
+July 2013
+June 2013
+May 2013
+April 2013
+March 2013
+February 2013
+January 2013
+December 2012
+November 2012
+October 2012
+September 2012
+August 2012
+July 2012
+June 2012
+May 2012
+April 2012
+March 2012
+February 2012
+January 2012
+December 2011
+November 2011
+October 2011
+September 2011
+August 2011
+July 2011
+June 2011
+May 2011
+April 2011
+March 2011
+February 2011
+January 2011
+December 2010
+November 2010
+October 2010
+September 2010
+August 2010
+July 2010
+June 2010
+May 2010
+April 2010
+March 2010
+February 2010
+January 2010
+December 2009
+November 2009
+October 2009
+September 2009
+August 2009
+July 2009
+June 2009
+May 2009
+April 2009
+March 2009
+February 2009
+January 2009
+December 2008
+November 2008
+October 2008
+September 2008
+August 2008
+July 2008
+June 2008
+May 2008
+April 2008
+March 2008
+February 2008
+January 2008
+December 2007
+November 2007
+October 2007
+September 2007
+August 2007
+April 2006
+February 2006
+September 2005
+Meta
+Log in
+Entries feed
+Comments feed
+WordPress.org
+About
+"This is the ODBMS Industry Watch blog. --Trends and Information on AI, Big Data, Data Science, New Data Management Technologies, Innovation."
+To see the complete ODBMS website with useful articles, downloads and industry information, please CLICK HERE.
+Flickr
+Search
+Copyright © 2026 ODBMS.org, All Rights Reserved.				Titan Theme by The Theme Foundry

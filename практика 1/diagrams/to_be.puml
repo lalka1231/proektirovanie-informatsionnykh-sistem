@@ -1,0 +1,48 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam defaultFontSize 21
+skinparam shadowing false
+skinparam ArrowColor #324A60
+skinparam roundcorner 14
+skinparam activityBackgroundColor #E8F3F4
+skinparam activityBorderColor #247E83
+skinparam usecaseBackgroundColor #E8F3F4
+skinparam usecaseBorderColor #247E83
+skinparam rectangleBorderColor #324A60
+skinparam componentBackgroundColor #E8F3F4
+skinparam componentBorderColor #247E83
+skinparam noteBackgroundColor #FFF2D7
+skinparam noteBorderColor #C88C30
+title TO-BE: те же задания — оптимизированный порядок
+|PFT — существующая ИС|
+start
+:Задания, адреса,\nограничения обслуживания;
+|ORION — автоматически|
+:Проверить входные данные\nи картографическую основу;
+if (Данные пригодны?) then (да)
+:Рассчитать порядок остановок\nс учетом ограничений;
+:Передать маршрут водителю;
+else (нет)
+|Планировщик|
+:Приостановить расчет\nи разобрать ошибки данных;
+note right
+После исправления — новый расчет.
+При невозможности — резервный план.
+end note
+stop
+endif
+|Водитель|
+:Выполнить доставки\nи заборы отправлений;
+if (Возникло отклонение?) then (да)
+:Разобрать исключение\nс планировщиком;
+else (нет)
+endif
+:Передать сведения\nо выполнении;
+stop
+legend bottom
+Учебная реконструкция на основании [1].
+Контур 2016 года: постоянный пересчет в пути не приписывается этой версии.
+endlegend
+@enduml

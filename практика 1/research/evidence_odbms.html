@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:addthis="https://www.addthis.com/help/api-spec" >
+<head>
+			<title>  Big Data at UPS. Interview with Jack Levis. | ODBMS Industry Watch</title>
+	
+	<!-- Basic Meta Data -->
+	<meta charset="UTF-8" />
+	<meta name="copyright" content="" />
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="https://www.odbms.org/blog/wp-content/themes/titan_pro_child/images/favicon.ico" />
+
+	<!-- WordPress -->
+	<link rel="pingback" href="https://www.odbms.org/blog/xmlrpc.php" />
+	<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s7.addthis.com' />
+<link rel="alternate" type="application/rss+xml" title="ODBMS Industry Watch &raquo; Feed" href="https://www.odbms.org/blog/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ODBMS Industry Watch &raquo; Comments Feed" href="https://www.odbms.org/blog/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ODBMS Industry Watch &raquo; Big Data at UPS. Interview with Jack Levis. Comments Feed" href="https://www.odbms.org/blog/2017/08/big-data-at-ups-interview-with-jack-levis/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.odbms.org\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.12"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://www.odbms.org/blog/wp-includes/css/dist/block-library/style.min.css?ver=6.1.12' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://www.odbms.org/blog/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='titan-style-css' href='https://www.odbms.org/blog/wp-content/themes/titan_pro_child/style.css' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='titan-ie-style-css' href='https://www.odbms.org/blog/wp-content/themes/titan_pro/stylesheets/ie.css' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='easy_table_style-css' href='https://www.odbms.org/blog/wp-content/plugins/easy-table/themes/default/style.css?ver=1.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='addthis_all_pages-css' href='https://www.odbms.org/blog/wp-content/plugins/addthis/frontend/build/addthis_wordpress_public.min.css?ver=6.1.12' type='text/css' media='all' />
+<link rel='stylesheet' id='author-info-widget-css' href='https://www.odbms.org/blog/wp-content/plugins/author-info-widget/author-info-widget.css?ver=6.1.12' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.odbms.org/blog/wp-admin/admin-ajax.php?action=addthis_global_options_settings&#038;ver=6.1.12' id='addthis_global_options-js'></script>
+<script type='text/javascript' src='https://s7.addthis.com/js/300/addthis_widget.js?ver=6.1.12#pubid=wp-2a53713ab2020200b5c54906b174238e' id='addthis_widget-js'></script>
+<link rel="https://api.w.org/" href="https://www.odbms.org/blog/wp-json/" /><link rel="alternate" type="application/json" href="https://www.odbms.org/blog/wp-json/wp/v2/posts/4382" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.odbms.org/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.odbms.org/blog/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.1.12" />
+<link rel="canonical" href="https://www.odbms.org/blog/2017/08/big-data-at-ups-interview-with-jack-levis/" />
+<link rel='shortlink' href='https://www.odbms.org/blog/?p=4382' />
+<link rel="alternate" type="application/json+oembed" href="https://www.odbms.org/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.odbms.org%2Fblog%2F2017%2F08%2Fbig-data-at-ups-interview-with-jack-levis%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.odbms.org/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.odbms.org%2Fblog%2F2017%2F08%2Fbig-data-at-ups-interview-with-jack-levis%2F&#038;format=xml" />
+			<!--[if lte IE 7]>
+			<script type="text/javascript">
+			sfHover=function(){var sfEls=document.getElementById("nav").getElementsByTagName("LI");for(var i=0;i<sfEls.length;i++){sfEls[i].onmouseover=function(){this.className+=" sfhover";}
+			sfEls[i].onmouseout=function(){this.className=this.className.replace(new RegExp(" sfhover\\b"),"");}}}
+			if (window.attachEvent)window.attachEvent("onload",sfHover);
+			</script>
+			<![endif]-->
+			<script type='text/javascript' src='https://www.odbms.org/blog/wp-includes/js/tw-sack.min.js?ver=1.6.1' id='sack-js'></script>
+</head>
+<body data-rsssl=1 class="post-template-default single single-post postid-4382 single-format-standard">
+	<div class="skip-content"><a href="#content">Skip to content</a></div>
+	<div id="header" class="clear">
+		<div id="follow">
+			<div class="wrapper clear">
+									<ul>
+																															<li><a href="http://twitter.com/odbmsorg"><img src="https://www.odbms.org/blog/wp-content/themes/titan_pro/images/flw-twitter.png" alt="Twitter"/></a></li>
+												<li><a class="rss" href="https://www.odbms.org/blog/feed/"><img src="https://www.odbms.org/blog/wp-content/themes/titan_pro/images/flw-rss.png" alt="RSS"/></a></li>
+					</ul>
+							</div><!--end wrapper-->
+		</div><!--end follow-->
+		<div class="wrapper">
+							<div id="title" style="float:left;"><a href="https://www.odbms.org/blog/">ODBMS Industry Watch</a></div>				<div id="description" style="float:right;">
+					Trends and Information on AI, Big Data, New Data Management Technologies, Data Science and Innovation.				</div><!--end description-->
+						<div id="navigation" class="menu-home-container"><ul id="nav" class="menu"><li id="menu-item-93" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-93"><a href="https://www.odbms.org/blog">Home</a></li>
+</ul></div>		</div><!--end wrapper-->
+	</div><!--end header-->
+<div class="content-background">
+<div class="wrapper clear">
+	<div class="notice">
+			</div><!--end notice-->
+	<div id="content" >						<div id="post-4382" class="post-4382 post type-post status-publish format-standard hentry category-uncategorized tag-2016-franz-edelman-prize tag-jack-levis tag-on-road-integrated-optimization-and-navigation-system-orion tag-package-flow-technologies-pft tag-ups">
+				<div class="post-header">
+					<div class="tags"><span>Tags</span> <p><a href="https://www.odbms.org/blog/tag/2016-franz-edelman-prize/" rel="tag">2016 Franz Edelman prize</a>, <a href="https://www.odbms.org/blog/tag/jack-levis/" rel="tag">Jack Levis</a>, <a href="https://www.odbms.org/blog/tag/on-road-integrated-optimization-and-navigation-system-orion/" rel="tag">On Road Integrated Optimization and Navigation system (ORION)</a>, <a href="https://www.odbms.org/blog/tag/package-flow-technologies-pft/" rel="tag">Package Flow Technologies (PFT)</a>, <a href="https://www.odbms.org/blog/tag/ups/" rel="tag">UPS</a></p></div>
+					<h1>Big Data at UPS. Interview with Jack Levis.</h1>
+					<div class="author">by Roberto V. Zicari on August 1, 2017</div>
+				</div><!--end post header-->
+				<div class="entry clear">
+										<div class="at-above-post addthis_tool" data-url="https://www.odbms.org/blog/2017/08/big-data-at-ups-interview-with-jack-levis/"></div><blockquote><p><strong>&#8220;Data is always a bottleneck.&#8221;&#8211;Jack Levis.</strong></p></blockquote>
+<p>I have interviewed <strong>Jack Levis</strong>, <em>Senior Director, Industrial Engineering at UPS</em>. Jack shared with us some of the main lessons learned from the development of the &#8220;On Road Integrated Optimization and Navigation system&#8221; (ORION).</p>
+<p>RVZ</p>
+<p><strong>Q1. Can you give us a background on UPS and some of the challenges that UPS faces?</strong></p>
+<p><strong>Jack Levis: </strong>The e-Commerce revolution brings with it some interesting challenges. First, from a cost-to-serve standpoint, residential deliveries are less dense in terms of distance between stops and pieces per stop. Second, residential customers want personalization in their delivery experience, which adds cost and other challenges. UPS has met these challenges by utilizing operations technology and advanced analytics.      </p>
+<p><strong>Q2. <a onclick="javascript:pageTracker._trackPageview('/outgoing/pressroom.ups.com/pressroom/ContentDetailsViewer.page?ConceptType=PressReleases&#038;id=1460463832713-874');"  href="https://pressroom.ups.com/pressroom/ContentDetailsViewer.page?ConceptType=PressReleases&#038;id=1460463832713-874" target="_blank">UPS won the 2016 Franz Edelman prize</a> for its <a onclick="javascript:pageTracker._trackPageview('/outgoing/pressroom.ups.com/pressroom/media-kits/mediakits.page?id=1426416927295-300&#038;ConceptType=MediaKits');"  href="https://pressroom.ups.com/pressroom/media-kits/mediakits.page?id=1426416927295-300&#038;ConceptType=MediaKits" target="_blank">On Road Integrated Optimization and Navigation system (ORION)</a>. You lead the four-year long development of ORION. ORION completed deployment in 2016. How did you manage to reduce 100 million miles driven annually and save UPS $300 to $400 million each year?</strong></p>
+<p><strong>Jack Levis: </strong>UPS has a long history of innovation and constant improvement. The ORION story actually began in the late 1990s when UPS started building our <a onclick="javascript:pageTracker._trackPageview('/outgoing/compass.ups.com/ups-package-flow-technology-improves-efficiency/');"  href="https://compass.ups.com/ups-package-flow-technology-improves-efficiency/" target="_blank">Package Flow Technologies (PFT)</a> data infrastructure. PFT created predictive models, a “virtual network”, and a suite of planning and execution tools. This was the foundation for ORION. PFT deployed in 2003 and reduced 85 million miles driven per year.</p>
+<p>ORION was built on this robust foundation. Using the discipline of operations research, ORION created a proprietary route optimization brain. Research into ORION began in 2003, and the first model was field tested in 2008 in Gettysburg, Pennsylvania. The result was that ORION could find ways to serve all customers in a route while at the same time reducing cost.</p>
+<p>It does so by systematically analyzing more than 200,000 different ways a route can be run and then presenting the optimal route to a driver. It does so in seconds.</p>
+<p>The ORION savings of 100 million miles and $300 million to $400 million annually is in addition to the savings from PFT.  </p>
+<p><strong>Q3. What data infrastructure and data analytics tools did you use to implement ORION?</strong></p>
+<p><strong>Jack Levis: </strong>As mentioned above, ORION sits on top of our proprietary PFT technology. The analytics tools are also built in house by UPS’s operations research team. The marriage of <a onclick="javascript:pageTracker._trackPageview('/outgoing/en.wikipedia.org/wiki/Operations_research');"  href="https://en.wikipedia.org/wiki/Operations_research" target="_blank">operations research</a>, <a onclick="javascript:pageTracker._trackPageview('/outgoing/en.wikipedia.org/wiki/Information_technology');"  href="https://en.wikipedia.org/wiki/Information_technology" target="_blank">IT</a> and <a onclick="javascript:pageTracker._trackPageview('/outgoing/en.wikipedia.org/wiki/Business_process');"  href="https://en.wikipedia.org/wiki/Business_process" target="_blank">business processes</a> is part of the ORION success story.</p>
+<p><strong>Q4. What were the main challenges and pitfalls you encountered in the project?</strong></p>
+<p><strong>Jack Levis: </strong>The first challenge was to build the ORION optimization engine (brain) that could not only meet service while reducing cost but do so while thinking like a driver. This meant that ORION needed to balance consistency and optimality. It made no sense to throw things up in the air just to save a penny. To do so, UPS had to reevaluate business rules, methods, procedures, etc. In essence, UPS redesigned the <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.ups.com/us/en/services/customized-solutions/optimization-logistics.page');"  href="https://www.ups.com/us/en/services/customized-solutions/optimization-logistics.page" target="_blank">delivery process</a>.</p>
+<p>The second challenge was ensuring the data fed to ORION was “pristine<a onclick="javascript:pageTracker._trackPageview('/outgoing/dictionary.cambridge.org/dictionary/english/pristine');"  href="http://dictionary.cambridge.org/dictionary/english/pristine" target="_blank"></a>”, and maps were a major challenge in this regard.<br />
+Off-the-shelf maps were not accurate enough. UPS patented a process for utilizing our “big data” infrastructure to help make maps accurate enough for ORION.</p>
+<p>For instance, if a speed limit changes or a bridge is out, this edit must be made and updated information sent to ORION. From the time the map is edited, an optimized route can be in a driver’s hands in 30 seconds.</p>
+<p>The third and largest challenge was change management. By definition, optimization tools like ORION will require people to change behavior. UPS tested training procedures, new metrics, analysis tools, etc. to ensure the change would take place.</p>
+<p>Ultimately, the deployment team grew to 700 people. This team impacted tens of thousands of front-line personnel. The deployment team and the front line are the true heroes of the story.</p>
+<p><strong>Q5. What are the three most important lessons learned during this project?</strong></p>
+<p><strong>Jack Levis: </strong>Never assume you know the answers. The first four years were spent truly understanding the delivery problem. There were many guidelines but few rules. ORION had to turn these guidelines into acceptable algorithms. The team did so by working with drivers and the front line until ORION started thinking like a driver.</p>
+<p>Data is always a bottleneck. Initially, the team thought maps that could be purchased would be accurate enough. When the optimizations gave bad answers, the team looked at the algorithm. As it turned out, the problem was the map data accuracy and not the algorithm. The algorithm could not be truly tested until the data inputs were “pristine.”</p>
+<p>Don’t forget deployment and change management. Do not think that “If you build it, they will come.” ORION required extensive change management and front-line support. It is important to have support from the top and show that the results are achievable. Without understanding the importance of change management, new programs run the risk of becoming a “flavor of the month.”  </p>
+<p><strong>Q6. Can you recommend three best practices so that other projects can have a smoother path?</strong></p>
+<p><strong>Jack Levis: </strong>Focus on decisions. Put effort into areas where a better decision will make an impact.</p>
+<p>Focus on deployment and data from the beginning. The ORION deployment strategy is now the standard for all operations projects at UPS.  </p>
+<p>Ensure the right data infrastructure is in place with proper data.</p>
+<p>Utilize appropriate associations and networking for help like the <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.informs.org/About-INFORMS');"  href="https://www.informs.org/About-INFORMS" target="_blank">Institute of Operations Research and the Management Sciences (INFORM)</a>.   </p>
+<p><strong>Q7. What were the key elements that made this project a success?</strong></p>
+<p><strong>Jack Levis: </strong>Support from senior management to allow the team to continue the research even when failures occurred.</p>
+<p>Proving that benefits could be achieved. The teams ran 11 different tests in multiple operations to test things like benefit achievement, training, metrics, best practices, etc.</p>
+<p>No site could be deployed unless an entrance criteria was met. No site could say deployment was completed unless exit criteria was met.</p>
+<p>There was constant evaluation of metrics and issues.</p>
+<p>ORION was built inside a delivery process. Operations do not know they are using such advanced mathematics. They are just doing their job.</p>
+<p><strong>Q8. In general, how do you evaluate if the insight you obtain from data analytics is &#8220;correct&#8221; or &#8220;good&#8221; or &#8220;relevant&#8221; to the problem domain?</strong></p>
+<p><strong>Jack Levis: </strong>The key is to start with decisions. See below (Q9).</p>
+<p><strong>Q9. What are the typical mistakes done when analyzing data for a large scale data project? How can they be avoided in practice?</strong></p>
+<p><strong>Jack Levis: </strong>We do NOT focus on technology. We focus on decisions. Big data is a how, not a what. We care less about Big Data than we care about big insight and big impact.</p>
+<p>By focusing on decision that need to be made, priorities become clearer. Ensuring decision-makers have the right information to make decisions and then measuring the impact of better decisions helps with the process. It helps to ensure the proper data is in place to make an impact.</p>
+<p>If an impact can be made from a simple tool, that is a good thing.</p>
+<p><strong>Q10. What are the main barriers to applying machine learning at scale?</strong></p>
+<p><strong>Jack Levis: </strong>The largest barrier is not focusing on decisions.</p>
+<p><strong>Q11. What is your next project?</strong></p>
+<p><strong>Jack Levis: </strong>UPS will build out ORION. </p>
+<p>ORION will begin making suggestions to drivers throughout the day. ORION will also provide navigation to drivers.</p>
+<p>We are also working on ORION making “dispatch” decisions. ORION will begin deciding which driver should serve customers. In essence, at some point it will automate the pickup/delivery process.</p>
+<p>Simultaneously, UPS will provide ORION-like functionality in other areas of the business.</p>
+<p>There will be a PFT/ORION for Transportation; city-to-city movements.</p>
+<p>There will be a PFT/ORION for inside the building operations; sorting, loading, moving of vehicles, etc.</p>
+<p><strong>Qx Anything else you wish to add?</strong></p>
+<p><strong>Jack Levis: </strong>The advances mentioned above along with automated facilities will begin to automate and optimize the network.</p>
+<p>Today, ORION optimizes a single driver. Tomorrow, ORION will begin to optimize an entire delivery area. </p>
+<p>UPS has a bold vision to optimize an entire network from end to end.</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;</p>
+<p><a onclick="javascript:pageTracker._trackPageview('/outgoing/www.odbms.org/blog/wp-content/uploads/2017/06/JACK.png');"  href="https://www.odbms.org/blog/wp-content/uploads/2017/06/JACK.png"><img decoding="async" class="alignnone  wp-image-4383" src="https://www.odbms.org/blog/wp-content/uploads/2017/06/JACK-236x300.png" alt="JACK" width="147" height="186" srcset="https://www.odbms.org/blog/wp-content/uploads/2017/06/JACK-236x300.png 236w, https://www.odbms.org/blog/wp-content/uploads/2017/06/JACK.png 311w" sizes="(max-width: 147px) 100vw, 147px" /></a></p>
+<p><strong>Jack Levis,</strong> <em>Senior Director, Industrial Engineering, UPS</em></p>
+<p><em>“Through the marriage of technology, information, and analytics UPS reduces cost and improves services. These advanced technologies streamline our business processes and ultimately benefit our customers.”</em></p>
+<p><em>Jack Levis, Senior Director of Industrial Engineering, drives the development of operational technology solutions. These solutions require advanced analytics to reengineer current processes to streamline the business and maximize productivity.</em></p>
+<p><em>Jack has been the business owner and process designer for UPS’s Package Flow Technology suite of systems, which includes its award-winning delivery optimization, ORION (On Road Integrated Optimization and Navigation). These tools have been a breakthrough for UPS, resulting in a reduction of 185 million miles driven each year.</em></p>
+<p><em>ORION has completed deployment and is providing significant operational benefits to UPS and its customers. UPS estimates that ORION is reducing costs by $300 million to $400 million per year.</em></p>
+<p><em>Jack earned his Bachelor of Arts degree in psychology, from California State University Northridge. He also holds a Master’s Certificate in Project Management from George Washington University.</em></p>
+<p><em>Jack is a fellow of the Institute for Operations Research and Management Sciences (INFORMS), receiving their prestigious Kimball Medal and the President’s Award.</p>
+<p>Jack holds advisory council positions for multiple universities and associations, including the U.S. Census Bureau Scientific Advisory Committee.</em><br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p><strong>Resources</strong></p>
+<p>&#8211;<a onclick="javascript:pageTracker._trackPageview('/outgoing/pressroom.ups.com/pressroom/ContentDetailsViewer.page?ConceptType=PressReleases&#038;id=1460463832713-874');"  href="https://pressroom.ups.com/pressroom/ContentDetailsViewer.page?ConceptType=PressReleases&#038;id=1460463832713-874" target="_blank">UPS Wins 2016 INFORMS Franz Edelman Award For Changing The Future Of Package Delivery</a></p>
+<p>&#8211;<a onclick="javascript:pageTracker._trackPageview('/outgoing/pressroom.ups.com/pressroom/media-kits/mediakits.page?id=1426416927295-300&#038;ConceptType=MediaKits');"  href="https://pressroom.ups.com/pressroom/media-kits/mediakits.page?id=1426416927295-300&#038;ConceptType=MediaKits" target="_blank">UPS On-Road Integrated Optimization and Navigation (ORION)</a></p>
+<p>&#8211;<a onclick="javascript:pageTracker._trackPageview('/outgoing/pressroom.ups.com/pressroom/ContentDetailsViewer.page?ConceptType=FactSheets&#038;id=1426321616277-282');"  href="https://pressroom.ups.com/pressroom/ContentDetailsViewer.page?ConceptType=FactSheets&#038;id=1426321616277-282" target="_blank">ORION Backgrounder</a></p>
+<p>&#8211;<a onclick="javascript:pageTracker._trackPageview('/outgoing/pressroom.ups.com/mobile0c9a66/assets/pdf/pressroom/infographic/UPS_ORION_Infographic_v6.pdf');"  href="https://pressroom.ups.com/mobile0c9a66/assets/pdf/pressroom/infographic/UPS_ORION_Infographic_v6.pdf" target="_blank">UPS ORION: The Driver Helper (Infographic)</a></p>
+<p><strong>Related Posts</strong></p>
+<p>&#8211; <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.odbms.org/blog/2017/03/how-algorithms-can-untangle-human-questions-interview-with-brian-christian/');"  href="https://www.odbms.org/blog/2017/03/how-algorithms-can-untangle-human-questions-interview-with-brian-christian/" target="_blank">How Algorithms can untangle Human Questions. Interview with Brian Christian</a></p>
+<p>&#8211; <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.odbms.org/blog/2017/02/on-digital-labor-technology-challenges-and-opportunities-interview-with-michael-henry/');"  href="https://www.odbms.org/blog/2017/02/on-digital-labor-technology-challenges-and-opportunities-interview-with-michael-henry/" target="_blank">On Digital labor: Technology, Challenges and Opportunities. Interview with Michael Henry</a></p>
+<p>&#8211; <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.odbms.org/blog/2014/10/big-data-management-american-express-interview-sastry-durvasula-kevin-murray/');"  href="https://www.odbms.org/blog/2014/10/big-data-management-american-express-interview-sastry-durvasula-kevin-murray/" target="_blank">Big Data Management at American Express. Interview with Sastry Durvasula and Kevin Murray.</a></p>
+<p><strong>Follow us on Twitter: <a onclick="javascript:pageTracker._trackPageview('/outgoing/twitter.com/odbmsorg');"  href="https://twitter.com/odbmsorg" target="_blank">@odbmsorg</a></strong></p>
+<p>##</p>
+<!-- AddThis Advanced Settings above via filter on the_content --><!-- AddThis Advanced Settings below via filter on the_content --><!-- AddThis Advanced Settings generic via filter on the_content --><!-- AddThis Share Buttons above via filter on the_content --><!-- AddThis Share Buttons below via filter on the_content --><div class="at-below-post addthis_tool" data-url="https://www.odbms.org/blog/2017/08/big-data-at-ups-interview-with-jack-levis/"></div><!-- AddThis Share Buttons generic via filter on the_content -->														</div><!--end entry-->
+				<div class="meta clear">
+					<p>From &rarr; <a href="https://www.odbms.org/blog/category/uncategorized/" rel="category tag">Uncategorized</a></p>
+				</div><!--end meta-->
+			</div><!--end post-->
+				
+<div id="comments">
+			<!-- If comments are open, but there are no comments. -->
+		<div class="comment-number">
+			<span>No comments yet</span>
+		</div>
+	 </div><!--end comments-->
+
+	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/blog/2017/08/big-data-at-ups-interview-with-jack-levis/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://www.odbms.org/blog/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p><label for="comment" class="comment-field"><small>Comment</small></label><textarea id="comment" name="comment" cols="50" rows="10" aria-required="true" tabindex="4"></textarea></p><p class="guidelines"><strong>Note:</strong> HTML is allowed. Your email address will not be published.</p>
+<p class="comments-rss"><a href="https://www.odbms.org/blog/2017/08/big-data-at-ups-interview-with-jack-levis/feed/">Subscribe to this comment feed via RSS</a></p><fieldset><label for="author" class="comment-field"><small>Name <span>(required)</span></small></label><input class="text-input" type="text" name="author" id="author" value="" size="22" tabindex="1" /></fieldset>
+<fieldset><label for="email" class="comment-field"><small>Email <span>(required, will not be published)</span></small></label><input class="text-input" type="text" name="email" id="email" value="" size="22" tabindex="2" /></fieldset>
+<fieldset><label for="url" class="comment-field"><small>Website</small></label><input class="text-input" type="text" name="url" id="url" value="" size="22" tabindex="3" /></fieldset>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit Comment" /> <input type='hidden' name='comment_post_ID' value='4382' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><input type="hidden" id="captchafree" name="captchafree" value="" />
+<script type="text/javascript">
+//<![CDATA[
+	function gethash(){
+		document.getElementById('captchafree').form.onsubmit = null;
+		if(document.getElementById('submit')) document.getElementById('submit').value='Please wait...';
+		var mysack = new sack("https://www.odbms.org/blog/wp-content/plugins/wp-captcha-free/captcha-free.php");
+		mysack.execute = 1;
+		mysack.method = 'POST';
+		mysack.onError = function() { alert('Unable to get Captcha-Free Hash!') };
+		mysack.setVar('post_id', 4382);
+		mysack.runAJAX();
+		return false;
+	}
+	function gothash(myhash){
+		document.getElementById('captchafree').value = myhash;
+		// Workaround for Wordpress' retarded choice of naming the submit button same as a JS function name >:-(
+		document.getElementById('submit').click();
+	}
+	document.getElementById('captchafree').form.onsubmit = gethash;
+//]]>
+</script>
+<noscript><p><strong>Please note:</strong> JavaScript is required to post comments.</p></noscript>
+</form>	</div><!-- #respond -->
+		</div><!--end content-->
+<div id="sidebar">
+			<ul>
+	<li id="author_info-2" class="widget widget_author_info"><h2 class="widgettitle">About the author</h2>
+
+    <div class="author-name">Roberto V. Zicari</div>
+    
+    <div class="author-avatar"><img alt='' src='https://secure.gravatar.com/avatar/092e0028a4ab37bf91cb8b98b1ecbe32?s=80&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/092e0028a4ab37bf91cb8b98b1ecbe32?s=160&#038;d=mm&#038;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' loading='lazy' decoding='async'/></div>
+      
+    <p class="author-description">Prof. Roberto V. Zicari is editor of ODBMS.ORG (<a href="/">www.odbms.org</a>) and ODBMS Industry Watch.  <br />
+ODBMS.ORG is designed to meet the fast-growing need for resources focusing on Gen AI, AI, AI Data Platforms, Data Science, Scalable Cloud platforms,  NewSQL databases, NoSQL datastores, In-Memory Databases. <br />
+The portal was created to serve software professionals in the open source community or at commercial companies as well as faculty and students at educational and research institutions.<br />
+Roberto V. Zicari is Vice Chair of the  Association for Responsible and Trustworthy AI: Z-Inspection® and affiliated professor at the Yrkeshögskolan Arcada, Helsinki, Finland.<br />
+Previously he was adjunct professor at the Seoul National University, South Korea.<br />
+Roberto V. Zicari is leading  a team of international experts who defined an assessment process for Trustworthy AI, called Z-Inspection®.<br />
+Previously he was professor of Database and Information Systems (DBIS) at the Goethe University Frankfurt, Germany, where he founded the Frankfurt Big Data Lab .<br />
+He is an internationally recognized expert in the field of Databases and Big Data. His interests also expand to Ethics and AI, Innovation and Entrepreneurship. He was for several years a visiting professor with the Center for Entrepreneurship and Technology within the Department of Industrial Engineering and Operations Research at UC Berkeley (USA).</p>
+    
+  <div class="clear"></div>
+  
+  <ul class="author-contact">
+  
+      
+        
+      
+        
+      
+      
+  </ul>
+  
+  <div class="clear"></div>
+
+</li><li id="search-2" class="widget widget_search"><form method="get" id="search_form" action="https://www.odbms.org/blog//">
+	<div>
+		<input type="text" name="s" id="s" class="search"/>
+		<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+</form></li><li id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widgettitle">Tags</h2><div class="tagcloud"><a href="https://www.odbms.org/blog/tag/ai/" class="tag-cloud-link tag-link-990 tag-link-position-1" style="font-size: 14.740740740741pt;" aria-label="AI (39 items)">AI</a>
+<a href="https://www.odbms.org/blog/tag/amazon/" class="tag-cloud-link tag-link-27 tag-link-position-2" style="font-size: 11.62962962963pt;" aria-label="Amazon (22 items)">Amazon</a>
+<a href="https://www.odbms.org/blog/tag/analytics/" class="tag-cloud-link tag-link-35 tag-link-position-3" style="font-size: 19.925925925926pt;" aria-label="Analytics (100 items)">Analytics</a>
+<a href="https://www.odbms.org/blog/tag/artificial-intelligence/" class="tag-cloud-link tag-link-881 tag-link-position-4" style="font-size: 12.277777777778pt;" aria-label="Artificial Intelligence (25 items)">Artificial Intelligence</a>
+<a href="https://www.odbms.org/blog/tag/big-data/" class="tag-cloud-link tag-link-66 tag-link-position-5" style="font-size: 22pt;" aria-label="Big Data (144 items)">Big Data</a>
+<a href="https://www.odbms.org/blog/tag/big-data-analytics/" class="tag-cloud-link tag-link-67 tag-link-position-6" style="font-size: 9.2962962962963pt;" aria-label="Big Data Analytics (14 items)">Big Data Analytics</a>
+<a href="https://www.odbms.org/blog/tag/cassandra/" class="tag-cloud-link tag-link-92 tag-link-position-7" style="font-size: 10.333333333333pt;" aria-label="Cassandra (17 items)">Cassandra</a>
+<a href="https://www.odbms.org/blog/tag/cloud/" class="tag-cloud-link tag-link-97 tag-link-position-8" style="font-size: 16.296296296296pt;" aria-label="Cloud (52 items)">Cloud</a>
+<a href="https://www.odbms.org/blog/tag/cloud-stores/" class="tag-cloud-link tag-link-102 tag-link-position-9" style="font-size: 13.833333333333pt;" aria-label="cloud stores (33 items)">cloud stores</a>
+<a href="https://www.odbms.org/blog/tag/data/" class="tag-cloud-link tag-link-748 tag-link-position-10" style="font-size: 10.592592592593pt;" aria-label="Data (18 items)">Data</a>
+<a href="https://www.odbms.org/blog/tag/databases/" class="tag-cloud-link tag-link-139 tag-link-position-11" style="font-size: 9.2962962962963pt;" aria-label="databases (14 items)">databases</a>
+<a href="https://www.odbms.org/blog/tag/document-stores/" class="tag-cloud-link tag-link-155 tag-link-position-12" style="font-size: 8pt;" aria-label="document stores (11 items)">document stores</a>
+<a href="https://www.odbms.org/blog/tag/facebook/" class="tag-cloud-link tag-link-193 tag-link-position-13" style="font-size: 8pt;" aria-label="Facebook (11 items)">Facebook</a>
+<a href="https://www.odbms.org/blog/tag/google/" class="tag-cloud-link tag-link-224 tag-link-position-14" style="font-size: 14.481481481481pt;" aria-label="Google (37 items)">Google</a>
+<a href="https://www.odbms.org/blog/tag/hadoop/" class="tag-cloud-link tag-link-239 tag-link-position-15" style="font-size: 18.62962962963pt;" aria-label="Hadoop (79 items)">Hadoop</a>
+<a href="https://www.odbms.org/blog/tag/ibm/" class="tag-cloud-link tag-link-263 tag-link-position-16" style="font-size: 9.2962962962963pt;" aria-label="IBM (14 items)">IBM</a>
+<a href="https://www.odbms.org/blog/tag/icoodb/" class="tag-cloud-link tag-link-269 tag-link-position-17" style="font-size: 9.5555555555556pt;" aria-label="ICOODB (15 items)">ICOODB</a>
+<a href="https://www.odbms.org/blog/tag/internet-of-things/" class="tag-cloud-link tag-link-286 tag-link-position-18" style="font-size: 12.537037037037pt;" aria-label="Internet of Things (26 items)">Internet of Things</a>
+<a href="https://www.odbms.org/blog/tag/intersystems/" class="tag-cloud-link tag-link-288 tag-link-position-19" style="font-size: 9.9444444444444pt;" aria-label="InterSystems (16 items)">InterSystems</a>
+<a href="https://www.odbms.org/blog/tag/interview/" class="tag-cloud-link tag-link-914 tag-link-position-20" style="font-size: 9.9444444444444pt;" aria-label="Interview (16 items)">Interview</a>
+<a href="https://www.odbms.org/blog/tag/iot/" class="tag-cloud-link tag-link-772 tag-link-position-21" style="font-size: 9.5555555555556pt;" aria-label="IoT (15 items)">IoT</a>
+<a href="https://www.odbms.org/blog/tag/java/" class="tag-cloud-link tag-link-298 tag-link-position-22" style="font-size: 12.796296296296pt;" aria-label="Java (27 items)">Java</a>
+<a href="https://www.odbms.org/blog/tag/machine-learning/" class="tag-cloud-link tag-link-350 tag-link-position-23" style="font-size: 12.796296296296pt;" aria-label="machine learning (27 items)">machine learning</a>
+<a href="https://www.odbms.org/blog/tag/mapreduce/" class="tag-cloud-link tag-link-355 tag-link-position-24" style="font-size: 13.703703703704pt;" aria-label="MapReduce (32 items)">MapReduce</a>
+<a href="https://www.odbms.org/blog/tag/microsoft/" class="tag-cloud-link tag-link-383 tag-link-position-25" style="font-size: 9.2962962962963pt;" aria-label="Microsoft (14 items)">Microsoft</a>
+<a href="https://www.odbms.org/blog/tag/mongodb/" class="tag-cloud-link tag-link-391 tag-link-position-26" style="font-size: 12.148148148148pt;" aria-label="MongoDB (24 items)">MongoDB</a>
+<a href="https://www.odbms.org/blog/tag/mysql/" class="tag-cloud-link tag-link-395 tag-link-position-27" style="font-size: 13.314814814815pt;" aria-label="MySQL (30 items)">MySQL</a>
+<a href="https://www.odbms.org/blog/tag/new-and-old-data-stores/" class="tag-cloud-link tag-link-406 tag-link-position-28" style="font-size: 8.9074074074074pt;" aria-label="New and old Data stores (13 items)">New and old Data stores</a>
+<a href="https://www.odbms.org/blog/tag/newsql/" class="tag-cloud-link tag-link-408 tag-link-position-29" style="font-size: 8.3888888888889pt;" aria-label="NewSQL (12 items)">NewSQL</a>
+<a href="https://www.odbms.org/blog/tag/nosql/" class="tag-cloud-link tag-link-412 tag-link-position-30" style="font-size: 18.111111111111pt;" aria-label="NoSQL (71 items)">NoSQL</a>
+<a href="https://www.odbms.org/blog/tag/nosql-databases/" class="tag-cloud-link tag-link-413 tag-link-position-31" style="font-size: 19.148148148148pt;" aria-label="nosql databases (87 items)">nosql databases</a>
+<a href="https://www.odbms.org/blog/tag/object-databases/" class="tag-cloud-link tag-link-416 tag-link-position-32" style="font-size: 11.888888888889pt;" aria-label="object databases (23 items)">object databases</a>
+<a href="https://www.odbms.org/blog/tag/object-persistence/" class="tag-cloud-link tag-link-418 tag-link-position-33" style="font-size: 9.2962962962963pt;" aria-label="object persistence (14 items)">object persistence</a>
+<a href="https://www.odbms.org/blog/tag/odbms/" class="tag-cloud-link tag-link-427 tag-link-position-34" style="font-size: 14.222222222222pt;" aria-label="ODBMS (35 items)">ODBMS</a>
+<a href="https://www.odbms.org/blog/tag/odbms-org/" class="tag-cloud-link tag-link-1648 tag-link-position-35" style="font-size: 11.888888888889pt;" aria-label="ODBMS.ORG (23 items)">ODBMS.ORG</a>
+<a href="https://www.odbms.org/blog/tag/omg/" class="tag-cloud-link tag-link-439 tag-link-position-36" style="font-size: 9.2962962962963pt;" aria-label="OMG (14 items)">OMG</a>
+<a href="https://www.odbms.org/blog/tag/on_innovation/" class="tag-cloud-link tag-link-440 tag-link-position-37" style="font-size: 12.277777777778pt;" aria-label="On Innovation (25 items)">On Innovation</a>
+<a href="https://www.odbms.org/blog/tag/open-source/" class="tag-cloud-link tag-link-446 tag-link-position-38" style="font-size: 18.37037037037pt;" aria-label="open source (74 items)">open source</a>
+<a href="https://www.odbms.org/blog/tag/oracle/" class="tag-cloud-link tag-link-449 tag-link-position-39" style="font-size: 9.5555555555556pt;" aria-label="Oracle (15 items)">Oracle</a>
+<a href="https://www.odbms.org/blog/tag/rdbms/" class="tag-cloud-link tag-link-490 tag-link-position-40" style="font-size: 10.851851851852pt;" aria-label="RDBMS (19 items)">RDBMS</a>
+<a href="https://www.odbms.org/blog/tag/relational-databases/" class="tag-cloud-link tag-link-499 tag-link-position-41" style="font-size: 15pt;" aria-label="relational databases (41 items)">relational databases</a>
+<a href="https://www.odbms.org/blog/tag/spark/" class="tag-cloud-link tag-link-544 tag-link-position-42" style="font-size: 8.3888888888889pt;" aria-label="Spark (12 items)">Spark</a>
+<a href="https://www.odbms.org/blog/tag/sql/" class="tag-cloud-link tag-link-549 tag-link-position-43" style="font-size: 17.851851851852pt;" aria-label="SQL (68 items)">SQL</a>
+<a href="https://www.odbms.org/blog/tag/standards/" class="tag-cloud-link tag-link-553 tag-link-position-44" style="font-size: 8.9074074074074pt;" aria-label="standards (13 items)">standards</a>
+<a href="https://www.odbms.org/blog/tag/voltdb/" class="tag-cloud-link tag-link-616 tag-link-position-45" style="font-size: 9.9444444444444pt;" aria-label="VoltDB (16 items)">VoltDB</a></div>
+</li><li id="archives-2" class="widget widget_archive"><h2 class="widgettitle">Archives</h2>
+			<ul>
+					<li><a href='https://www.odbms.org/blog/2026/08/'>August 2026</a></li>
+	<li><a href='https://www.odbms.org/blog/2026/07/'>July 2026</a></li>
+	<li><a href='https://www.odbms.org/blog/2026/06/'>June 2026</a></li>
+	<li><a href='https://www.odbms.org/blog/2026/04/'>April 2026</a></li>
+	<li><a href='https://www.odbms.org/blog/2026/03/'>March 2026</a></li>
+	<li><a href='https://www.odbms.org/blog/2026/02/'>February 2026</a></li>
+	<li><a href='https://www.odbms.org/blog/2025/11/'>November 2025</a></li>
+	<li><a href='https://www.odbms.org/blog/2025/10/'>October 2025</a></li>
+	<li><a href='https://www.odbms.org/blog/2025/09/'>September 2025</a></li>
+	<li><a href='https://www.odbms.org/blog/2025/08/'>August 2025</a></li>
+	<li><a href='https://www.odbms.org/blog/2025/07/'>July 2025</a></li>
+	<li><a href='https://www.odbms.org/blog/2025/05/'>May 2025</a></li>
+	<li><a href='https://www.odbms.org/blog/2025/04/'>April 2025</a></li>
+	<li><a href='https://www.odbms.org/blog/2025/03/'>March 2025</a></li>
+	<li><a href='https://www.odbms.org/blog/2025/02/'>February 2025</a></li>
+	<li><a href='https://www.odbms.org/blog/2024/11/'>November 2024</a></li>
+	<li><a href='https://www.odbms.org/blog/2024/10/'>October 2024</a></li>
+	<li><a href='https://www.odbms.org/blog/2024/03/'>March 2024</a></li>
+	<li><a href='https://www.odbms.org/blog/2024/01/'>January 2024</a></li>
+	<li><a href='https://www.odbms.org/blog/2023/12/'>December 2023</a></li>
+	<li><a href='https://www.odbms.org/blog/2023/10/'>October 2023</a></li>
+	<li><a href='https://www.odbms.org/blog/2023/06/'>June 2023</a></li>
+	<li><a href='https://www.odbms.org/blog/2023/02/'>February 2023</a></li>
+	<li><a href='https://www.odbms.org/blog/2023/01/'>January 2023</a></li>
+	<li><a href='https://www.odbms.org/blog/2022/03/'>March 2022</a></li>
+	<li><a href='https://www.odbms.org/blog/2022/02/'>February 2022</a></li>
+	<li><a href='https://www.odbms.org/blog/2021/12/'>December 2021</a></li>
+	<li><a href='https://www.odbms.org/blog/2021/11/'>November 2021</a></li>
+	<li><a href='https://www.odbms.org/blog/2021/09/'>September 2021</a></li>
+	<li><a href='https://www.odbms.org/blog/2021/08/'>August 2021</a></li>
+	<li><a href='https://www.odbms.org/blog/2021/05/'>May 2021</a></li>
+	<li><a href='https://www.odbms.org/blog/2021/04/'>April 2021</a></li>
+	<li><a href='https://www.odbms.org/blog/2021/03/'>March 2021</a></li>
+	<li><a href='https://www.odbms.org/blog/2020/11/'>November 2020</a></li>
+	<li><a href='https://www.odbms.org/blog/2020/07/'>July 2020</a></li>
+	<li><a href='https://www.odbms.org/blog/2020/06/'>June 2020</a></li>
+	<li><a href='https://www.odbms.org/blog/2020/04/'>April 2020</a></li>
+	<li><a href='https://www.odbms.org/blog/2020/03/'>March 2020</a></li>
+	<li><a href='https://www.odbms.org/blog/2020/02/'>February 2020</a></li>
+	<li><a href='https://www.odbms.org/blog/2020/01/'>January 2020</a></li>
+	<li><a href='https://www.odbms.org/blog/2019/11/'>November 2019</a></li>
+	<li><a href='https://www.odbms.org/blog/2019/09/'>September 2019</a></li>
+	<li><a href='https://www.odbms.org/blog/2019/08/'>August 2019</a></li>
+	<li><a href='https://www.odbms.org/blog/2019/07/'>July 2019</a></li>
+	<li><a href='https://www.odbms.org/blog/2019/06/'>June 2019</a></li>
+	<li><a href='https://www.odbms.org/blog/2019/05/'>May 2019</a></li>
+	<li><a href='https://www.odbms.org/blog/2019/04/'>April 2019</a></li>
+	<li><a href='https://www.odbms.org/blog/2019/03/'>March 2019</a></li>
+	<li><a href='https://www.odbms.org/blog/2019/02/'>February 2019</a></li>
+	<li><a href='https://www.odbms.org/blog/2019/01/'>January 2019</a></li>
+	<li><a href='https://www.odbms.org/blog/2018/12/'>December 2018</a></li>
+	<li><a href='https://www.odbms.org/blog/2018/11/'>November 2018</a></li>
+	<li><a href='https://www.odbms.org/blog/2018/10/'>October 2018</a></li>
+	<li><a href='https://www.odbms.org/blog/2018/09/'>September 2018</a></li>
+	<li><a href='https://www.odbms.org/blog/2018/08/'>August 2018</a></li>
+	<li><a href='https://www.odbms.org/blog/2018/07/'>July 2018</a></li>
+	<li><a href='https://www.odbms.org/blog/2018/06/'>June 2018</a></li>
+	<li><a href='https://www.odbms.org/blog/2018/05/'>May 2018</a></li>
+	<li><a href='https://www.odbms.org/blog/2018/03/'>March 2018</a></li>
+	<li><a href='https://www.odbms.org/blog/2018/02/'>February 2018</a></li>
+	<li><a href='https://www.odbms.org/blog/2018/01/'>January 2018</a></li>
+	<li><a href='https://www.odbms.org/blog/2017/12/'>December 2017</a></li>
+	<li><a href='https://www.odbms.org/blog/2017/11/'>November 2017</a></li>
+	<li><a href='https://www.odbms.org/blog/2017/10/'>October 2017</a></li>
+	<li><a href='https://www.odbms.org/blog/2017/09/'>September 2017</a></li>
+	<li><a href='https://www.odbms.org/blog/2017/08/'>August 2017</a></li>
+	<li><a href='https://www.odbms.org/blog/2017/06/'>June 2017</a></li>
+	<li><a href='https://www.odbms.org/blog/2017/05/'>May 2017</a></li>
+	<li><a href='https://www.odbms.org/blog/2017/03/'>March 2017</a></li>
+	<li><a href='https://www.odbms.org/blog/2017/02/'>February 2017</a></li>
+	<li><a href='https://www.odbms.org/blog/2017/01/'>January 2017</a></li>
+	<li><a href='https://www.odbms.org/blog/2016/12/'>December 2016</a></li>
+	<li><a href='https://www.odbms.org/blog/2016/11/'>November 2016</a></li>
+	<li><a href='https://www.odbms.org/blog/2016/10/'>October 2016</a></li>
+	<li><a href='https://www.odbms.org/blog/2016/09/'>September 2016</a></li>
+	<li><a href='https://www.odbms.org/blog/2016/08/'>August 2016</a></li>
+	<li><a href='https://www.odbms.org/blog/2016/07/'>July 2016</a></li>
+	<li><a href='https://www.odbms.org/blog/2016/06/'>June 2016</a></li>
+	<li><a href='https://www.odbms.org/blog/2016/05/'>May 2016</a></li>
+	<li><a href='https://www.odbms.org/blog/2016/04/'>April 2016</a></li>
+	<li><a href='https://www.odbms.org/blog/2016/03/'>March 2016</a></li>
+	<li><a href='https://www.odbms.org/blog/2016/02/'>February 2016</a></li>
+	<li><a href='https://www.odbms.org/blog/2016/01/'>January 2016</a></li>
+	<li><a href='https://www.odbms.org/blog/2015/12/'>December 2015</a></li>
+	<li><a href='https://www.odbms.org/blog/2015/11/'>November 2015</a></li>
+	<li><a href='https://www.odbms.org/blog/2015/10/'>October 2015</a></li>
+	<li><a href='https://www.odbms.org/blog/2015/09/'>September 2015</a></li>
+	<li><a href='https://www.odbms.org/blog/2015/08/'>August 2015</a></li>
+	<li><a href='https://www.odbms.org/blog/2015/07/'>July 2015</a></li>
+	<li><a href='https://www.odbms.org/blog/2015/06/'>June 2015</a></li>
+	<li><a href='https://www.odbms.org/blog/2015/05/'>May 2015</a></li>
+	<li><a href='https://www.odbms.org/blog/2015/04/'>April 2015</a></li>
+	<li><a href='https://www.odbms.org/blog/2015/03/'>March 2015</a></li>
+	<li><a href='https://www.odbms.org/blog/2015/02/'>February 2015</a></li>
+	<li><a href='https://www.odbms.org/blog/2015/01/'>January 2015</a></li>
+	<li><a href='https://www.odbms.org/blog/2014/12/'>December 2014</a></li>
+	<li><a href='https://www.odbms.org/blog/2014/11/'>November 2014</a></li>
+	<li><a href='https://www.odbms.org/blog/2014/10/'>October 2014</a></li>
+	<li><a href='https://www.odbms.org/blog/2014/09/'>September 2014</a></li>
+	<li><a href='https://www.odbms.org/blog/2014/08/'>August 2014</a></li>
+	<li><a href='https://www.odbms.org/blog/2014/07/'>July 2014</a></li>
+	<li><a href='https://www.odbms.org/blog/2014/06/'>June 2014</a></li>
+	<li><a href='https://www.odbms.org/blog/2014/05/'>May 2014</a></li>
+	<li><a href='https://www.odbms.org/blog/2014/04/'>April 2014</a></li>
+	<li><a href='https://www.odbms.org/blog/2014/03/'>March 2014</a></li>
+	<li><a href='https://www.odbms.org/blog/2014/02/'>February 2014</a></li>
+	<li><a href='https://www.odbms.org/blog/2014/01/'>January 2014</a></li>
+	<li><a href='https://www.odbms.org/blog/2013/12/'>December 2013</a></li>
+	<li><a href='https://www.odbms.org/blog/2013/11/'>November 2013</a></li>
+	<li><a href='https://www.odbms.org/blog/2013/10/'>October 2013</a></li>
+	<li><a href='https://www.odbms.org/blog/2013/09/'>September 2013</a></li>
+	<li><a href='https://www.odbms.org/blog/2013/08/'>August 2013</a></li>
+	<li><a href='https://www.odbms.org/blog/2013/07/'>July 2013</a></li>
+	<li><a href='https://www.odbms.org/blog/2013/06/'>June 2013</a></li>
+	<li><a href='https://www.odbms.org/blog/2013/05/'>May 2013</a></li>
+	<li><a href='https://www.odbms.org/blog/2013/04/'>April 2013</a></li>
+	<li><a href='https://www.odbms.org/blog/2013/03/'>March 2013</a></li>
+	<li><a href='https://www.odbms.org/blog/2013/02/'>February 2013</a></li>
+	<li><a href='https://www.odbms.org/blog/2013/01/'>January 2013</a></li>
+	<li><a href='https://www.odbms.org/blog/2012/12/'>December 2012</a></li>
+	<li><a href='https://www.odbms.org/blog/2012/11/'>November 2012</a></li>
+	<li><a href='https://www.odbms.org/blog/2012/10/'>October 2012</a></li>
+	<li><a href='https://www.odbms.org/blog/2012/09/'>September 2012</a></li>
+	<li><a href='https://www.odbms.org/blog/2012/08/'>August 2012</a></li>
+	<li><a href='https://www.odbms.org/blog/2012/07/'>July 2012</a></li>
+	<li><a href='https://www.odbms.org/blog/2012/06/'>June 2012</a></li>
+	<li><a href='https://www.odbms.org/blog/2012/05/'>May 2012</a></li>
+	<li><a href='https://www.odbms.org/blog/2012/04/'>April 2012</a></li>
+	<li><a href='https://www.odbms.org/blog/2012/03/'>March 2012</a></li>
+	<li><a href='https://www.odbms.org/blog/2012/02/'>February 2012</a></li>
+	<li><a href='https://www.odbms.org/blog/2012/01/'>January 2012</a></li>
+	<li><a href='https://www.odbms.org/blog/2011/12/'>December 2011</a></li>
+	<li><a href='https://www.odbms.org/blog/2011/11/'>November 2011</a></li>
+	<li><a href='https://www.odbms.org/blog/2011/10/'>October 2011</a></li>
+	<li><a href='https://www.odbms.org/blog/2011/09/'>September 2011</a></li>
+	<li><a href='https://www.odbms.org/blog/2011/08/'>August 2011</a></li>
+	<li><a href='https://www.odbms.org/blog/2011/07/'>July 2011</a></li>
+	<li><a href='https://www.odbms.org/blog/2011/06/'>June 2011</a></li>
+	<li><a href='https://www.odbms.org/blog/2011/05/'>May 2011</a></li>
+	<li><a href='https://www.odbms.org/blog/2011/04/'>April 2011</a></li>
+	<li><a href='https://www.odbms.org/blog/2011/03/'>March 2011</a></li>
+	<li><a href='https://www.odbms.org/blog/2011/02/'>February 2011</a></li>
+	<li><a href='https://www.odbms.org/blog/2011/01/'>January 2011</a></li>
+	<li><a href='https://www.odbms.org/blog/2010/12/'>December 2010</a></li>
+	<li><a href='https://www.odbms.org/blog/2010/11/'>November 2010</a></li>
+	<li><a href='https://www.odbms.org/blog/2010/10/'>October 2010</a></li>
+	<li><a href='https://www.odbms.org/blog/2010/09/'>September 2010</a></li>
+	<li><a href='https://www.odbms.org/blog/2010/08/'>August 2010</a></li>
+	<li><a href='https://www.odbms.org/blog/2010/07/'>July 2010</a></li>
+	<li><a href='https://www.odbms.org/blog/2010/06/'>June 2010</a></li>
+	<li><a href='https://www.odbms.org/blog/2010/05/'>May 2010</a></li>
+	<li><a href='https://www.odbms.org/blog/2010/04/'>April 2010</a></li>
+	<li><a href='https://www.odbms.org/blog/2010/03/'>March 2010</a></li>
+	<li><a href='https://www.odbms.org/blog/2010/02/'>February 2010</a></li>
+	<li><a href='https://www.odbms.org/blog/2010/01/'>January 2010</a></li>
+	<li><a href='https://www.odbms.org/blog/2009/12/'>December 2009</a></li>
+	<li><a href='https://www.odbms.org/blog/2009/11/'>November 2009</a></li>
+	<li><a href='https://www.odbms.org/blog/2009/10/'>October 2009</a></li>
+	<li><a href='https://www.odbms.org/blog/2009/09/'>September 2009</a></li>
+	<li><a href='https://www.odbms.org/blog/2009/08/'>August 2009</a></li>
+	<li><a href='https://www.odbms.org/blog/2009/07/'>July 2009</a></li>
+	<li><a href='https://www.odbms.org/blog/2009/06/'>June 2009</a></li>
+	<li><a href='https://www.odbms.org/blog/2009/05/'>May 2009</a></li>
+	<li><a href='https://www.odbms.org/blog/2009/04/'>April 2009</a></li>
+	<li><a href='https://www.odbms.org/blog/2009/03/'>March 2009</a></li>
+	<li><a href='https://www.odbms.org/blog/2009/02/'>February 2009</a></li>
+	<li><a href='https://www.odbms.org/blog/2009/01/'>January 2009</a></li>
+	<li><a href='https://www.odbms.org/blog/2008/12/'>December 2008</a></li>
+	<li><a href='https://www.odbms.org/blog/2008/11/'>November 2008</a></li>
+	<li><a href='https://www.odbms.org/blog/2008/10/'>October 2008</a></li>
+	<li><a href='https://www.odbms.org/blog/2008/09/'>September 2008</a></li>
+	<li><a href='https://www.odbms.org/blog/2008/08/'>August 2008</a></li>
+	<li><a href='https://www.odbms.org/blog/2008/07/'>July 2008</a></li>
+	<li><a href='https://www.odbms.org/blog/2008/06/'>June 2008</a></li>
+	<li><a href='https://www.odbms.org/blog/2008/05/'>May 2008</a></li>
+	<li><a href='https://www.odbms.org/blog/2008/04/'>April 2008</a></li>
+	<li><a href='https://www.odbms.org/blog/2008/03/'>March 2008</a></li>
+	<li><a href='https://www.odbms.org/blog/2008/02/'>February 2008</a></li>
+	<li><a href='https://www.odbms.org/blog/2008/01/'>January 2008</a></li>
+	<li><a href='https://www.odbms.org/blog/2007/12/'>December 2007</a></li>
+	<li><a href='https://www.odbms.org/blog/2007/11/'>November 2007</a></li>
+	<li><a href='https://www.odbms.org/blog/2007/10/'>October 2007</a></li>
+	<li><a href='https://www.odbms.org/blog/2007/09/'>September 2007</a></li>
+	<li><a href='https://www.odbms.org/blog/2007/08/'>August 2007</a></li>
+	<li><a href='https://www.odbms.org/blog/2006/04/'>April 2006</a></li>
+	<li><a href='https://www.odbms.org/blog/2006/02/'>February 2006</a></li>
+	<li><a href='https://www.odbms.org/blog/2005/09/'>September 2005</a></li>
+			</ul>
+
+			</li><li id="meta-2" class="widget widget_meta"><h2 class="widgettitle">Meta</h2>
+		<ul>
+						<li><a href="https://www.odbms.org/blog/wp-login.php">Log in</a></li>
+			<li><a href="https://www.odbms.org/blog/feed/">Entries feed</a></li>
+			<li><a href="https://www.odbms.org/blog/comments/feed/">Comments feed</a></li>
+
+			<li><a href="https://wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</li>	</ul>
+</div><!--end sidebar--></div><!--end wrapper-->
+</div><!--end content-background-->
+<div id="footer">
+	<div class="wrapper clear">
+		<div id="footer-about" class="footer-column">
+												<h2>About</h2>
+											<p><b>"This is the ODBMS Industry Watch blog. --Trends and Information on AI, Big Data, Data Science, New Data Management Technologies, Innovation."</b><br />
+ To see the complete ODBMS website with useful articles, downloads and industry information, please <a href="/">CLICK HERE</a>.</p>
+														</div>
+		<div id="footer-flickr" class="footer-column">
+												<h2>Flickr</h2>
+																			</div>
+		<div id="footer-search" class="footer-column">
+												<h2>Search</h2>
+					<form method="get" id="search_form" action="https://www.odbms.org/blog//">
+	<div>
+		<input type="text" name="s" id="s" class="search"/>
+		<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+</form>									</div>
+		<div id="copyright">
+			<p class="copyright-notice">
+				Copyright &copy; 2026 ODBMS.org, All Rights Reserved.				<a href="http://thethemefoundry.com/titan/">Titan Theme</a> by <a href="http://thethemefoundry.com/">The Theme Foundry</a>			</p>
+		</div><!--end copyright-->
+	</div><!--end wrapper-->
+</div><!--end footer-->
+
+<!-- tracker added by Ultimate Google Analytics plugin v1.6.0: http://www.oratransplant.nl/uga -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-XXXXXX-X");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8140849-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script type='text/javascript' src='https://www.odbms.org/blog/wp-includes/js/comment-reply.min.js?ver=6.1.12' id='comment-reply-js'></script>
+</body>
+</html>

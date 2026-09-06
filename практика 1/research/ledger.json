@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.odbms.org/blog/2017/08/big-data-at-ups-interview-with-jack-levis",
+      "title": "Big Data at UPS. Interview with Jack Levis.",
+      "accessed": "2026-09-06",
+      "quotes": [
+        {
+          "text": "The ORION savings of 100 million miles and $300 million to $400 million annually is in addition to the savings from PFT.",
+          "added": "2026-09-06"
+        },
+        {
+          "text": "Research into ORION began in 2003, and the first model was field tested in 2008 in Gettysburg, Pennsylvania.",
+          "added": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://www.accenture.com/us-en/case-studies/cloud/carlsberg-cloud-innovation",
+      "title": "",
+      "accessed": "2026-09-06",
+      "quotes": [
+        {
+          "text": "In just eight weeks, a team comprising Carlsberg and Accenture Technology professionals developed a one-of-a-kind cloud strategy and selected Microsoft Azure as the cloud platform of choice.",
+          "added": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://www.dhl.com/content/dam/dhl/global/csi/documents/pdf/glo-csi-supply-chain-accelerated-digitalization-case-studies.pdf",
+      "title": "",
+      "accessed": "2026-09-06",
+      "quotes": [
+        {
+          "text": "Reduction of indirect planning time from 16 hours to 4 hours",
+          "added": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://web.archive.org/web/20250516154643/https://pubsonline.informs.org/do/10.1287/orms.2016.03.10/full",
+      "title": "",
+      "accessed": "2026-09-06",
+      "quotes": [
+        {
+          "text": "As of December 2015, ORION was being used by 35,000 UPS drivers in the United States, and every morning they receive an optimized sequence in which the (pre)assigned packages are delivered.",
+          "added": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://www.globenewswire.com/news-release/2016/04/12/828097/30428/en/UPS-Wins-2016-INFORMS-Franz-Edelman-Award-for-Changing-the-Future-of-Package-Delivery.html",
+      "title": "",
+      "accessed": "2026-09-06",
+      "quotes": [
+        {
+          "text": "Following the prototyping period between 2008 and 2011, and the official launch in 2013, ORION is on track to complete U.S. deployment by the end of 2016.",
+          "added": "2026-09-06"
+        }
+      ]
+    }
+  ]
+}
